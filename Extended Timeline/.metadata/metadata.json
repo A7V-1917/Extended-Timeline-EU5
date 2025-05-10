@@ -1,0 +1,13 @@
+{
+    "name" : "Extended Timeline",
+    "id" : "com.extendedtimeline.etmain",
+    "version" : "0.1",
+    "game_id" : "caesar",
+    "supported_game_version" : "0.7.*",
+    "short_description" : "Main Extended Timeline mod",
+    "tags" : [],
+    "relationships" : [],
+    "game_custom_data" : {
+        "replace_paths" : ["main_menu/common/defines"]
+    }
+}
