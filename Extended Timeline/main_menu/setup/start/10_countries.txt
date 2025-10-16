@@ -1,0 +1,4920 @@
+﻿current_age = age_1_traditions
+
+# own_control_core
+# own_control_integrated
+# own_control_conquered
+# own_control_colony
+# own_core
+# own_conquered
+# own_integrated
+# own_colony
+# control_core
+# control
+# our_cores_conquered_by_others
+
+countries = {
+	countries = {
+	#-------------------------- Arabia ----------------------------
+		# Nabatea
+		NAB = { 
+			own_control_core = {
+				al_quwayrah aqaba maan			
+			}			
+			include = "expl_middle_east"
+			starting_technology_level = 3
+			include = "muslim_monarchy_no_abrahamic_dhimmi"
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = random
+
+				laws = {
+					sharia_law = shafii_policy
+				}
+			}
+
+			tolerated_cultures = {
+				hadhrami_culture
+			}
+
+			religious_school = shafii_school
+			government = { mysticism_vs_jurisprudence = 20 }
+				
+
+			country_rank = rank_kingdom
+			capital = maan
+		}		
+		# Masqat
+		MASC = { 
+			own_control_core = {
+				masqat al_kamil_wal_wafi as_sib jalan_buani_buali masirah qalhat sur
+			}	
+			include = "expl_middle_east"
+			starting_technology_level = 3
+			include = "muslim_monarchy_no_abrahamic_dhimmi"
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = random
+
+				laws = {
+					sharia_law = shafii_policy
+				}
+			}
+
+			tolerated_cultures = {
+				hadhrami_culture
+			}
+
+			religious_school = shafii_school
+			government = { mysticism_vs_jurisprudence = 20 }
+				
+
+			country_rank = rank_kingdom
+			capital = masqat
+		}
+		# Gerrha https://en.wikipedia.org/wiki/Gerrha
+		GERR = { 
+			own_control_core = {
+				al_ahsa al_jubayl al_qatif al_uqayr baqqa manama sayhat
+				hafar_al_batin ar_rukai ash_shuaybah kazimah mashdhubah qurain ad_dibdibah				
+			}
+			include = "expl_middle_east"
+			starting_technology_level = 3
+			include = "muslim_monarchy_no_abrahamic_dhimmi"
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = random
+
+				laws = {
+					sharia_law = shafii_policy
+				}
+			}
+
+			tolerated_cultures = {
+				hadhrami_culture
+			}
+
+			religious_school = shafii_school
+			government = { mysticism_vs_jurisprudence = 20 }
+				
+
+			country_rank = rank_kingdom
+			capital = sayhat
+		}
+		# Thamud
+		THAM = { 
+
+			our_cores_conquered_by_others = {
+				maan
+			}
+				
+			include = "expl_middle_east"
+			starting_technology_level = 3
+			include = "muslim_monarchy_no_abrahamic_dhimmi"
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = random
+
+				laws = {
+					sharia_law = shafii_policy
+				}
+			}
+
+			tolerated_cultures = {
+				hadhrami_culture
+			}
+
+			country_rank = rank_kingdom
+			capital = maan
+		}
+		# Ma'in
+		MINA = { 
+			own_control_core = {
+				muhayil
+			}	
+			include = "expl_middle_east"
+			starting_technology_level = 3
+			include = "muslim_monarchy_no_abrahamic_dhimmi"
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = random
+
+				laws = {
+					sharia_law = shafii_policy
+				}
+			}
+
+			tolerated_cultures = {
+				hadhrami_culture
+			}
+
+			country_rank = rank_kingdom
+			capital = muhayil
+		}
+		# Saba
+		SABA = { 
+			own_control_core = {
+				marib
+			}
+			
+			include = "expl_middle_east"
+			starting_technology_level = 3
+			include = "muslim_monarchy_no_abrahamic_dhimmi"
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = random
+				
+				laws = {
+					sharia_law = shafii_policy
+				}
+			}
+			tolerated_cultures = {
+				hadhrami_culture
+			}
+			religious_school = shafii_school
+			government = { mysticism_vs_jurisprudence = 20 }
+			
+			country_rank = rank_kingdom
+			capital = marib
+		}
+		#Banu Gurat https://de.wikipedia.org/wiki/Liste_der_Herrscher_von_Saba
+		GURA = { 
+			our_cores_conquered_by_others = {
+				marib
+			}
+			
+			include = "expl_middle_east"
+			starting_technology_level = 3
+			include = "muslim_monarchy_no_abrahamic_dhimmi"
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = random
+				
+				laws = {
+					sharia_law = shafii_policy
+				}
+			}
+			tolerated_cultures = {
+				hadhrami_culture
+			}
+			religious_school = shafii_school
+			government = { mysticism_vs_jurisprudence = 20 }
+			
+			country_rank = rank_kingdom
+			capital = marib
+		}
+		# Qataban https://de.wikipedia.org/wiki/Qataban
+		QATA = { 
+			own_control_core = {
+				yahr
+			}
+			include = "expl_middle_east"
+			starting_technology_level = 3
+			include = "muslim_monarchy_no_abrahamic_dhimmi"
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = random
+
+				laws = {
+					sharia_law = shafii_policy
+				}
+			}
+
+			tolerated_cultures = {
+				hadhrami_culture
+			}
+
+			religious_school = shafii_school
+			government = { mysticism_vs_jurisprudence = 20 }
+				
+
+			country_rank = rank_kingdom
+			capital = yahr
+		}
+		# Mahra
+		MAHR = { 
+			own_control_core = {
+				qishn
+			}	
+			include = "expl_middle_east"
+			starting_technology_level = 3
+			include = "muslim_monarchy_no_abrahamic_dhimmi"
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = random
+
+				laws = {
+					sharia_law = shafii_policy
+				}
+			}
+
+			tolerated_cultures = {
+				hadhrami_culture
+			}
+
+			religious_school = shafii_school
+			government = { mysticism_vs_jurisprudence = 20 }
+				
+
+			country_rank = rank_kingdom
+			capital = qishn
+		}
+		# Ad
+		AD00 = { 
+			own_control_core = {
+				dhufar
+			}	
+			include = "expl_middle_east"
+			starting_technology_level = 3
+			include = "muslim_monarchy_no_abrahamic_dhimmi"
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = random
+
+				laws = {
+					sharia_law = shafii_policy
+				}
+			}
+
+			tolerated_cultures = {
+				hadhrami_culture
+			}
+
+			religious_school = shafii_school
+			government = { mysticism_vs_jurisprudence = 20 }
+				
+
+			country_rank = rank_kingdom
+			capital = dhufar
+		}
+		# Ausan
+		AUSA = { 
+			own_control_core = {
+				zinjibar
+			}	
+			include = "expl_middle_east"
+			starting_technology_level = 3
+			include = "muslim_monarchy_no_abrahamic_dhimmi"
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = random
+
+				laws = {
+					sharia_law = shafii_policy
+				}
+			}
+
+			tolerated_cultures = {
+				hadhrami_culture
+			}
+
+			religious_school = shafii_school
+			government = { mysticism_vs_jurisprudence = 20 }
+				
+
+			country_rank = rank_kingdom
+			capital = zinjibar
+		}
+		# Hadramut
+		HADR = { 
+			own_control_core = {
+				shibam huraydah
+			}
+			include = "expl_middle_east"
+			starting_technology_level = 3
+			include = "muslim_monarchy_no_abrahamic_dhimmi"
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = random
+
+				laws = {
+					sharia_law = shafii_policy
+				}
+			}
+
+			tolerated_cultures = {
+				hadhrami_culture
+			}
+
+			country_rank = rank_kingdom
+			capital = huraydah
+		}
+	#---------------------------- Crescent (Mashriq) --------------------------------
+		
+		# Characene
+		CHRC = { 
+			own_control_core = {
+				basra abadan abdas al_madar al_qatr suq_al_shuyukh zuwayr
+			}
+
+			include = "expl_scandinavia"
+			include = "catholic_monarchy"
+
+			country_rank = rank_kingdom
+
+			starting_technology_level = 3
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = random
+				
+				laws = {
+					marriage_law = monogamous_marriage
+					heir_religion_law = heir_same_religion
+				}
+
+
+				centralization_vs_decentralization = 25
+				traditionalist_vs_innovative = 30
+				spiritualist_vs_humanist = -50
+				aristocracy_vs_plutocracy = -30
+				serfdom_vs_free_subjects = 50
+				mercantilism_vs_free_trade = -10
+				belligerent_vs_conciliatory = 10
+				quality_vs_quantity = -5
+				offensive_vs_defensive = -20
+				land_vs_naval = -10
+				capital_economy_vs_traditional_economy = 90
+				individualism_vs_communalism = -20
+				outward_vs_inward = -30
+
+				privilege = {
+					#nobles
+					auxilium_et_consilium
+					nobles_land_rights
+					noble_marriage_rights
+					noble_fortification_licenses
+
+					#clergy
+					clergy_literacy_rights
+					clergy_enforced_unity
+
+					#burghers
+					market_fairs
+
+					#peasants
+					peasants_free_peasantry
+					peasants_represented_in_parliament
+					land_owning_farmers
+				}
+
+			}
+
+			capital = basra
+		
+			accepted_cultures = { finnish gutnish }
+			tolerated_cultures = { tavastian karelian kvens }
+		}
+		# Osroene
+		OSRO = { 
+
+			our_cores_conquered_by_others = {
+				basra
+			}
+				
+			include = "expl_scandinavia"
+			include = "catholic_monarchy"
+
+			country_rank = rank_kingdom
+
+			starting_technology_level = 3
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = random
+				
+				laws = {
+					marriage_law = monogamous_marriage
+					heir_religion_law = heir_same_religion
+				}
+
+
+				centralization_vs_decentralization = 25
+				traditionalist_vs_innovative = 30
+				spiritualist_vs_humanist = -50
+				aristocracy_vs_plutocracy = -30
+				serfdom_vs_free_subjects = 50
+				mercantilism_vs_free_trade = -10
+				belligerent_vs_conciliatory = 10
+				quality_vs_quantity = -5
+				offensive_vs_defensive = -20
+				land_vs_naval = -10
+				capital_economy_vs_traditional_economy = 90
+				individualism_vs_communalism = -20
+				outward_vs_inward = -30
+
+				privilege = {
+					#nobles
+					auxilium_et_consilium
+					nobles_land_rights
+					noble_marriage_rights
+					noble_fortification_licenses
+
+					#clergy
+					clergy_literacy_rights
+					clergy_enforced_unity
+
+					#burghers
+					market_fairs
+
+					#peasants
+					peasants_free_peasantry
+					peasants_represented_in_parliament
+					land_owning_farmers
+				}
+
+			}
+
+			capital = basra
+		
+			accepted_cultures = { finnish gutnish }
+			tolerated_cultures = { tavastian karelian kvens }
+		}
+		# Adiabene
+		ADIA = { 
+
+			our_cores_conquered_by_others = {
+				basra
+			}
+				
+			include = "expl_scandinavia"
+			include = "catholic_monarchy"
+
+			country_rank = rank_kingdom
+
+			starting_technology_level = 3
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = random
+				
+				laws = {
+					marriage_law = monogamous_marriage
+					heir_religion_law = heir_same_religion
+				}
+
+
+				centralization_vs_decentralization = 25
+				traditionalist_vs_innovative = 30
+				spiritualist_vs_humanist = -50
+				aristocracy_vs_plutocracy = -30
+				serfdom_vs_free_subjects = 50
+				mercantilism_vs_free_trade = -10
+				belligerent_vs_conciliatory = 10
+				quality_vs_quantity = -5
+				offensive_vs_defensive = -20
+				land_vs_naval = -10
+				capital_economy_vs_traditional_economy = 90
+				individualism_vs_communalism = -20
+				outward_vs_inward = -30
+
+				privilege = {
+					#nobles
+					auxilium_et_consilium
+					nobles_land_rights
+					noble_marriage_rights
+					noble_fortification_licenses
+
+					#clergy
+					clergy_literacy_rights
+					clergy_enforced_unity
+
+					#burghers
+					market_fairs
+
+					#peasants
+					peasants_free_peasantry
+					peasants_represented_in_parliament
+					land_owning_farmers
+				}
+
+			}
+
+			capital = basra
+		
+			accepted_cultures = { finnish gutnish }
+			tolerated_cultures = { tavastian karelian kvens }
+		}
+		#---------------------------- Germania --------------------------------
+		# Alemanni
+		ALEM = { 
+			own_control_core = {
+				baden
+			}
+			our_cores_conquered_by_others = {
+				
+			}
+			starting_technology_level = 2
+			include = "amerindian_tribe"
+			include = "expl_mesoamerica"
+			government = {
+				ruler = random
+				type = tribe
+			}
+			capital = baden
+		}
+		# Marcomanni
+		MARC = { 
+			own_control_core = {
+				prague
+			}
+
+			starting_technology_level = 2
+			include = "amerindian_tribe"
+			include = "expl_mesoamerica"
+			government = {
+				ruler = random
+				type = tribe
+			}
+			capital = prague
+		}
+		# Quadi
+		QUAD = { 
+
+			our_cores_conquered_by_others = {
+				berlin
+			}
+			starting_technology_level = 2
+			include = "amerindian_tribe"
+			include = "expl_mesoamerica"
+			government = {
+				ruler = random
+				type = tribe
+			}
+			capital = berlin
+		}
+		# Semnones
+		SEMN = { 
+			own_control_core = {
+				berlin
+			}
+			our_cores_conquered_by_others = {
+				
+			}
+			starting_technology_level = 2
+			include = "amerindian_tribe"
+			include = "expl_mesoamerica"
+			government = {
+				ruler = random
+				type = tribe
+			}
+			capital = berlin
+		}
+		# Lombardy
+		LOMB = { 
+
+			our_cores_conquered_by_others = {
+				erfurt
+			}
+			starting_technology_level = 2
+			include = "amerindian_tribe"
+			include = "expl_mesoamerica"
+			government = {
+				ruler = random
+				type = tribe
+			}
+			capital = erfurt
+		}
+		# Varisci
+		VARI = { 
+
+			our_cores_conquered_by_others = {
+				erfurt
+			}
+			starting_technology_level = 2
+			include = "amerindian_tribe"
+			include = "expl_mesoamerica"
+			government = {
+				ruler = random
+				type = tribe
+			}
+			capital = erfurt
+		}
+		# Hermunduri
+		HERM = { 
+			own_control_core = {
+				erfurt
+			}
+			our_cores_conquered_by_others = {
+				
+			}
+			starting_technology_level = 2
+			include = "amerindian_tribe"
+			include = "expl_mesoamerica"
+			government = {
+				ruler = random
+				type = tribe
+			}
+			capital = erfurt
+		}
+		# Chatti
+		CHTT = { 
+
+			our_cores_conquered_by_others = {
+				lubeck
+			}
+			starting_technology_level = 2
+			include = "amerindian_tribe"
+			include = "expl_mesoamerica"
+			government = {
+				ruler = random
+				type = tribe
+			}
+			capital = lubeck
+		}
+		# Sicambri
+		SICA = { 
+
+			our_cores_conquered_by_others = {
+				lubeck
+			}
+			starting_technology_level = 2
+			include = "amerindian_tribe"
+			include = "expl_mesoamerica"
+			government = {
+				ruler = random
+				type = tribe
+			}
+			capital = lubeck
+		}
+		# Angria
+		ANGR = { 
+			own_control_core = {
+				
+			}
+			our_cores_conquered_by_others = {
+				lubeck
+			}
+			starting_technology_level = 2
+			include = "amerindian_tribe"
+			include = "expl_mesoamerica"
+			government = {
+				ruler = random
+				type = tribe
+			}
+			capital = lubeck
+		}
+		# Chauci
+		CHCI = { 
+
+			our_cores_conquered_by_others = {
+				lubeck
+			}
+			starting_technology_level = 2
+			include = "amerindian_tribe"
+			include = "expl_mesoamerica"
+			government = {
+				ruler = random
+				type = tribe
+			}
+			capital = lubeck
+		}
+		# Anglia
+		ANGL = { 
+			own_control_core = {
+				lubeck
+			}
+			our_cores_conquered_by_others = {
+				
+			}
+			starting_technology_level = 2
+			include = "amerindian_tribe"
+			include = "expl_mesoamerica"
+			government = {
+				ruler = random
+				type = tribe
+			}
+			capital = lubeck
+		}
+		# Warini
+		WARI = { 
+
+			our_cores_conquered_by_others = {
+				schwerin
+			}
+			starting_technology_level = 2
+			include = "amerindian_tribe"
+			include = "expl_mesoamerica"
+			government = {
+				ruler = random
+				type = tribe
+			}
+			capital = schwerin
+		}
+		# Chamavi
+		CHMV = { 
+			own_control_core = {
+				schwerin
+			}
+			our_cores_conquered_by_others = {
+				
+			}
+			starting_technology_level = 2
+			include = "amerindian_tribe"
+			include = "expl_mesoamerica"
+			government = {
+				ruler = random
+				type = tribe
+			}
+			capital = schwerin
+		}
+		# Rugii
+		RUGI = { 
+			own_control_core = {
+				krakow
+			}
+			our_cores_conquered_by_others = {
+				
+			}
+			starting_technology_level = 2
+			include = "amerindian_tribe"
+			include = "expl_mesoamerica"
+			government = {
+				ruler = random
+				type = tribe
+			}
+			capital = krakow
+		}
+		# Nahanarvali
+		NAHA = { 
+			own_control_core = {
+				krakow
+			}
+			our_cores_conquered_by_others = {
+				
+			}
+			starting_technology_level = 2
+			include = "amerindian_tribe"
+			include = "expl_mesoamerica"
+			government = {
+				ruler = random
+				type = tribe
+			}
+			capital = krakow
+		}
+	#---------------------------- Anatolia ---------------------------------
+		# Commagene
+		COMM = {  
+
+			our_cores_conquered_by_others = {
+				adana
+			}
+				
+			include = "expl_scandinavia"
+			include = "catholic_monarchy"
+
+			country_rank = rank_kingdom
+
+			starting_technology_level = 3
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = random
+				
+				laws = {
+					marriage_law = monogamous_marriage
+					heir_religion_law = heir_same_religion
+				}
+
+
+				centralization_vs_decentralization = 25
+				traditionalist_vs_innovative = 30
+				spiritualist_vs_humanist = -50
+				aristocracy_vs_plutocracy = -30
+				serfdom_vs_free_subjects = 50
+				mercantilism_vs_free_trade = -10
+				belligerent_vs_conciliatory = 10
+				quality_vs_quantity = -5
+				offensive_vs_defensive = -20
+				land_vs_naval = -10
+				capital_economy_vs_traditional_economy = 90
+				individualism_vs_communalism = -20
+				outward_vs_inward = -30
+
+				privilege = {
+					#nobles
+					auxilium_et_consilium
+					nobles_land_rights
+					noble_marriage_rights
+					noble_fortification_licenses
+
+					#clergy
+					clergy_literacy_rights
+					clergy_enforced_unity
+
+					#burghers
+					market_fairs
+
+					#peasants
+					peasants_free_peasantry
+					peasants_represented_in_parliament
+					land_owning_farmers
+				}
+
+			}
+
+			capital = adana
+		
+			accepted_cultures = { finnish gutnish }
+			tolerated_cultures = { tavastian karelian kvens }
+		}
+		# Pontus
+		PONT = { 
+			own_control_core = {
+				amasra
+			}
+		
+			include = "expl_scandinavia"
+			include = "catholic_monarchy"
+
+			country_rank = rank_kingdom
+
+			starting_technology_level = 3
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = random
+				
+				laws = {
+					marriage_law = monogamous_marriage
+					heir_religion_law = heir_same_religion
+				}
+
+
+				centralization_vs_decentralization = 25
+				traditionalist_vs_innovative = 30
+				spiritualist_vs_humanist = -50
+				aristocracy_vs_plutocracy = -30
+				serfdom_vs_free_subjects = 50
+				mercantilism_vs_free_trade = -10
+				belligerent_vs_conciliatory = 10
+				quality_vs_quantity = -5
+				offensive_vs_defensive = -20
+				land_vs_naval = -10
+				capital_economy_vs_traditional_economy = 90
+				individualism_vs_communalism = -20
+				outward_vs_inward = -30
+
+				privilege = {
+					#nobles
+					auxilium_et_consilium
+					nobles_land_rights
+					noble_marriage_rights
+					noble_fortification_licenses
+
+					#clergy
+					clergy_literacy_rights
+					clergy_enforced_unity
+
+					#burghers
+					market_fairs
+
+					#peasants
+					peasants_free_peasantry
+					peasants_represented_in_parliament
+					land_owning_farmers
+				}
+
+			}
+
+			capital = amasra
+		
+			accepted_cultures = { finnish gutnish }
+			tolerated_cultures = { tavastian karelian kvens }
+		}
+		# Cappadocia
+		CAPP = { 
+			own_control_core = {
+				adana
+			}
+	
+			include = "expl_scandinavia"
+			include = "catholic_monarchy"
+
+			country_rank = rank_kingdom
+
+			starting_technology_level = 3
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = random
+				
+				laws = {
+					marriage_law = monogamous_marriage
+					heir_religion_law = heir_same_religion
+				}
+
+
+				centralization_vs_decentralization = 25
+				traditionalist_vs_innovative = 30
+				spiritualist_vs_humanist = -50
+				aristocracy_vs_plutocracy = -30
+				serfdom_vs_free_subjects = 50
+				mercantilism_vs_free_trade = -10
+				belligerent_vs_conciliatory = 10
+				quality_vs_quantity = -5
+				offensive_vs_defensive = -20
+				land_vs_naval = -10
+				capital_economy_vs_traditional_economy = 90
+				individualism_vs_communalism = -20
+				outward_vs_inward = -30
+
+				privilege = {
+					#nobles
+					auxilium_et_consilium
+					nobles_land_rights
+					noble_marriage_rights
+					noble_fortification_licenses
+
+					#clergy
+					clergy_literacy_rights
+					clergy_enforced_unity
+
+					#burghers
+					market_fairs
+
+					#peasants
+					peasants_free_peasantry
+					peasants_represented_in_parliament
+					land_owning_farmers
+				}
+
+			}
+
+			capital = adana
+		
+			accepted_cultures = { finnish gutnish }
+			tolerated_cultures = { tavastian karelian kvens }
+		}
+	#---------------------------- Caucasus ---------------------------------
+		# Siraces
+		SIRA = { 
+			own_control_core = {
+				sukhumi
+			}
+		
+			include = "expl_scandinavia"
+			include = "catholic_monarchy"
+
+			country_rank = rank_kingdom
+
+			starting_technology_level = 3
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = random
+				
+				laws = {
+					marriage_law = monogamous_marriage
+					heir_religion_law = heir_same_religion
+				}
+
+
+				centralization_vs_decentralization = 25
+				traditionalist_vs_innovative = 30
+				spiritualist_vs_humanist = -50
+				aristocracy_vs_plutocracy = -30
+				serfdom_vs_free_subjects = 50
+				mercantilism_vs_free_trade = -10
+				belligerent_vs_conciliatory = 10
+				quality_vs_quantity = -5
+				offensive_vs_defensive = -20
+				land_vs_naval = -10
+				capital_economy_vs_traditional_economy = 90
+				individualism_vs_communalism = -20
+				outward_vs_inward = -30
+
+				privilege = {
+					#nobles
+					auxilium_et_consilium
+					nobles_land_rights
+					noble_marriage_rights
+					noble_fortification_licenses
+
+					#clergy
+					clergy_literacy_rights
+					clergy_enforced_unity
+
+					#burghers
+					market_fairs
+
+					#peasants
+					peasants_free_peasantry
+					peasants_represented_in_parliament
+					land_owning_farmers
+				}
+
+			}
+
+			capital = sukhumi
+		
+			accepted_cultures = { finnish gutnish }
+			tolerated_cultures = { tavastian karelian kvens }
+		}
+		# Caucasian Albania
+		CALB = { 
+			own_control_core = {
+				baku
+			}
+		
+			include = "expl_scandinavia"
+			include = "catholic_monarchy"
+
+			country_rank = rank_kingdom
+
+			starting_technology_level = 3
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = random
+				
+				laws = {
+					marriage_law = monogamous_marriage
+					heir_religion_law = heir_same_religion
+				}
+
+
+				centralization_vs_decentralization = 25
+				traditionalist_vs_innovative = 30
+				spiritualist_vs_humanist = -50
+				aristocracy_vs_plutocracy = -30
+				serfdom_vs_free_subjects = 50
+				mercantilism_vs_free_trade = -10
+				belligerent_vs_conciliatory = 10
+				quality_vs_quantity = -5
+				offensive_vs_defensive = -20
+				land_vs_naval = -10
+				capital_economy_vs_traditional_economy = 90
+				individualism_vs_communalism = -20
+				outward_vs_inward = -30
+
+				privilege = {
+					#nobles
+					auxilium_et_consilium
+					nobles_land_rights
+					noble_marriage_rights
+					noble_fortification_licenses
+
+					#clergy
+					clergy_literacy_rights
+					clergy_enforced_unity
+
+					#burghers
+					market_fairs
+
+					#peasants
+					peasants_free_peasantry
+					peasants_represented_in_parliament
+					land_owning_farmers
+				}
+
+			}
+
+			capital = baku
+		
+			accepted_cultures = { finnish gutnish }
+			tolerated_cultures = { tavastian karelian kvens }
+		}
+		# Iberia
+		IBER = {  
+			own_control_core = {
+				tbilisi
+			}
+	
+			include = "expl_scandinavia"
+			include = "catholic_monarchy"
+
+			country_rank = rank_kingdom
+
+			starting_technology_level = 3
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = random
+				
+				laws = {
+					marriage_law = monogamous_marriage
+					heir_religion_law = heir_same_religion
+				}
+
+
+				centralization_vs_decentralization = 25
+				traditionalist_vs_innovative = 30
+				spiritualist_vs_humanist = -50
+				aristocracy_vs_plutocracy = -30
+				serfdom_vs_free_subjects = 50
+				mercantilism_vs_free_trade = -10
+				belligerent_vs_conciliatory = 10
+				quality_vs_quantity = -5
+				offensive_vs_defensive = -20
+				land_vs_naval = -10
+				capital_economy_vs_traditional_economy = 90
+				individualism_vs_communalism = -20
+				outward_vs_inward = -30
+
+				privilege = {
+					#nobles
+					auxilium_et_consilium
+					nobles_land_rights
+					noble_marriage_rights
+					noble_fortification_licenses
+
+					#clergy
+					clergy_literacy_rights
+					clergy_enforced_unity
+
+					#burghers
+					market_fairs
+
+					#peasants
+					peasants_free_peasantry
+					peasants_represented_in_parliament
+					land_owning_farmers
+				}
+
+			}
+
+			capital = tbilisi
+		
+			accepted_cultures = { finnish gutnish }
+			tolerated_cultures = { tavastian karelian kvens }
+		}
+	#---------------------------- Balkans ----------------------------------
+		# Thracia
+		ODRY = {  
+			own_control_core = {
+				plovdiv
+			}
+	
+			include = "expl_scandinavia"
+			include = "catholic_monarchy"
+
+			country_rank = rank_kingdom
+
+			starting_technology_level = 3
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = random
+				
+				laws = {
+					marriage_law = monogamous_marriage
+					heir_religion_law = heir_same_religion
+				}
+
+
+				centralization_vs_decentralization = 25
+				traditionalist_vs_innovative = 30
+				spiritualist_vs_humanist = -50
+				aristocracy_vs_plutocracy = -30
+				serfdom_vs_free_subjects = 50
+				mercantilism_vs_free_trade = -10
+				belligerent_vs_conciliatory = 10
+				quality_vs_quantity = -5
+				offensive_vs_defensive = -20
+				land_vs_naval = -10
+				capital_economy_vs_traditional_economy = 90
+				individualism_vs_communalism = -20
+				outward_vs_inward = -30
+
+				privilege = {
+					#nobles
+					auxilium_et_consilium
+					nobles_land_rights
+					noble_marriage_rights
+					noble_fortification_licenses
+
+					#clergy
+					clergy_literacy_rights
+					clergy_enforced_unity
+
+					#burghers
+					market_fairs
+
+					#peasants
+					peasants_free_peasantry
+					peasants_represented_in_parliament
+					land_owning_farmers
+				}
+
+			}
+
+			capital = plovdiv
+		
+			accepted_cultures = { finnish gutnish }
+			tolerated_cultures = { tavastian karelian kvens }
+		}
+	#---------------------------- Pannonia ---------------------------------
+		# Gotini
+		GOTI = {  
+			own_control_core = {
+				vienna
+			}
+	
+			include = "expl_scandinavia"
+			include = "catholic_monarchy"
+
+			country_rank = rank_kingdom
+
+			starting_technology_level = 3
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = random
+				
+				laws = {
+					marriage_law = monogamous_marriage
+					heir_religion_law = heir_same_religion
+				}
+
+
+				centralization_vs_decentralization = 25
+				traditionalist_vs_innovative = 30
+				spiritualist_vs_humanist = -50
+				aristocracy_vs_plutocracy = -30
+				serfdom_vs_free_subjects = 50
+				mercantilism_vs_free_trade = -10
+				belligerent_vs_conciliatory = 10
+				quality_vs_quantity = -5
+				offensive_vs_defensive = -20
+				land_vs_naval = -10
+				capital_economy_vs_traditional_economy = 90
+				individualism_vs_communalism = -20
+				outward_vs_inward = -30
+
+				privilege = {
+					#nobles
+					auxilium_et_consilium
+					nobles_land_rights
+					noble_marriage_rights
+					noble_fortification_licenses
+
+					#clergy
+					clergy_literacy_rights
+					clergy_enforced_unity
+
+					#burghers
+					market_fairs
+
+					#peasants
+					peasants_free_peasantry
+					peasants_represented_in_parliament
+					land_owning_farmers
+				}
+
+			}
+
+			capital = vienna
+		
+			accepted_cultures = { finnish gutnish }
+			tolerated_cultures = { tavastian karelian kvens }
+		}
+		#Iazyges
+		IAZY = {  
+			own_control_core = {
+				bekes
+			}
+			
+			include = "expl_scandinavia"
+			include = "catholic_monarchy"
+
+			country_rank = rank_kingdom
+
+			starting_technology_level = 3
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = random
+				
+				laws = {
+					marriage_law = monogamous_marriage
+					heir_religion_law = heir_same_religion
+				}
+
+
+				centralization_vs_decentralization = 25
+				traditionalist_vs_innovative = 30
+				spiritualist_vs_humanist = -50
+				aristocracy_vs_plutocracy = -30
+				serfdom_vs_free_subjects = 50
+				mercantilism_vs_free_trade = -10
+				belligerent_vs_conciliatory = 10
+				quality_vs_quantity = -5
+				offensive_vs_defensive = -20
+				land_vs_naval = -10
+				capital_economy_vs_traditional_economy = 90
+				individualism_vs_communalism = -20
+				outward_vs_inward = -30
+
+				privilege = {
+					#nobles
+					auxilium_et_consilium
+					nobles_land_rights
+					noble_marriage_rights
+					noble_fortification_licenses
+
+					#clergy
+					clergy_literacy_rights
+					clergy_enforced_unity
+
+					#burghers
+					market_fairs
+
+					#peasants
+					peasants_free_peasantry
+					peasants_represented_in_parliament
+					land_owning_farmers
+				}
+
+			}
+
+			capital = bekes
+		
+			accepted_cultures = { finnish gutnish }
+			tolerated_cultures = { tavastian karelian kvens }
+		}
+		#Dacia
+		DAC = {  
+			own_control_core = {
+				deva
+			}		
+			include = "expl_scandinavia"
+			include = "catholic_monarchy"
+
+			country_rank = rank_kingdom
+
+			starting_technology_level = 3
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = random
+				
+				laws = {
+					marriage_law = monogamous_marriage
+					heir_religion_law = heir_same_religion
+				}
+
+
+				centralization_vs_decentralization = 25
+				traditionalist_vs_innovative = 30
+				spiritualist_vs_humanist = -50
+				aristocracy_vs_plutocracy = -30
+				serfdom_vs_free_subjects = 50
+				mercantilism_vs_free_trade = -10
+				belligerent_vs_conciliatory = 10
+				quality_vs_quantity = -5
+				offensive_vs_defensive = -20
+				land_vs_naval = -10
+				capital_economy_vs_traditional_economy = 90
+				individualism_vs_communalism = -20
+				outward_vs_inward = -30
+
+				privilege = {
+					#nobles
+					auxilium_et_consilium
+					nobles_land_rights
+					noble_marriage_rights
+					noble_fortification_licenses
+
+					#clergy
+					clergy_literacy_rights
+					clergy_enforced_unity
+
+					#burghers
+					market_fairs
+
+					#peasants
+					peasants_free_peasantry
+					peasants_represented_in_parliament
+					land_owning_farmers
+				}
+
+			}
+
+			capital = deva
+		
+			accepted_cultures = { finnish gutnish }
+			tolerated_cultures = { tavastian karelian kvens }
+		}
+	#---------------------------- Poland --------------------------------
+		# Gepids
+		GEPI = {  
+			own_control_core = {
+				ciechanow
+			}	
+			include = "expl_scandinavia"
+			include = "catholic_monarchy"
+
+			country_rank = rank_kingdom
+
+			starting_technology_level = 3
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = random
+				
+				laws = {
+					marriage_law = monogamous_marriage
+					heir_religion_law = heir_same_religion
+				}
+
+
+				centralization_vs_decentralization = 25
+				traditionalist_vs_innovative = 30
+				spiritualist_vs_humanist = -50
+				aristocracy_vs_plutocracy = -30
+				serfdom_vs_free_subjects = 50
+				mercantilism_vs_free_trade = -10
+				belligerent_vs_conciliatory = 10
+				quality_vs_quantity = -5
+				offensive_vs_defensive = -20
+				land_vs_naval = -10
+				capital_economy_vs_traditional_economy = 90
+				individualism_vs_communalism = -20
+				outward_vs_inward = -30
+
+				privilege = {
+					#nobles
+					auxilium_et_consilium
+					nobles_land_rights
+					noble_marriage_rights
+					noble_fortification_licenses
+
+					#clergy
+					clergy_literacy_rights
+					clergy_enforced_unity
+
+					#burghers
+					market_fairs
+
+					#peasants
+					peasants_free_peasantry
+					peasants_represented_in_parliament
+					land_owning_farmers
+				}
+
+			}
+
+			capital = ciechanow
+		
+			accepted_cultures = { finnish gutnish }
+			tolerated_cultures = { tavastian karelian kvens }
+		}
+		# Sciri
+		SCIR = {   
+			our_cores_conquered_by_others = {
+				glogow
+			}
+				
+			include = "expl_scandinavia"
+			include = "catholic_monarchy"
+
+			country_rank = rank_kingdom
+
+			starting_technology_level = 3
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = random
+				
+				laws = {
+					marriage_law = monogamous_marriage
+					heir_religion_law = heir_same_religion
+				}
+
+
+				centralization_vs_decentralization = 25
+				traditionalist_vs_innovative = 30
+				spiritualist_vs_humanist = -50
+				aristocracy_vs_plutocracy = -30
+				serfdom_vs_free_subjects = 50
+				mercantilism_vs_free_trade = -10
+				belligerent_vs_conciliatory = 10
+				quality_vs_quantity = -5
+				offensive_vs_defensive = -20
+				land_vs_naval = -10
+				capital_economy_vs_traditional_economy = 90
+				individualism_vs_communalism = -20
+				outward_vs_inward = -30
+
+				privilege = {
+					#nobles
+					auxilium_et_consilium
+					nobles_land_rights
+					noble_marriage_rights
+					noble_fortification_licenses
+
+					#clergy
+					clergy_literacy_rights
+					clergy_enforced_unity
+
+					#burghers
+					market_fairs
+
+					#peasants
+					peasants_free_peasantry
+					peasants_represented_in_parliament
+					land_owning_farmers
+				}
+
+			}
+
+			capital = glogow
+		
+			accepted_cultures = { finnish gutnish }
+			tolerated_cultures = { tavastian karelian kvens }
+		}
+		# Vandals
+		VAND = { 
+			own_control_core = {
+				glogow
+			}	
+			include = "expl_scandinavia"
+			include = "catholic_monarchy"
+
+			country_rank = rank_kingdom
+
+			starting_technology_level = 3
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = random
+				
+				laws = {
+					marriage_law = monogamous_marriage
+					heir_religion_law = heir_same_religion
+				}
+
+
+				centralization_vs_decentralization = 25
+				traditionalist_vs_innovative = 30
+				spiritualist_vs_humanist = -50
+				aristocracy_vs_plutocracy = -30
+				serfdom_vs_free_subjects = 50
+				mercantilism_vs_free_trade = -10
+				belligerent_vs_conciliatory = 10
+				quality_vs_quantity = -5
+				offensive_vs_defensive = -20
+				land_vs_naval = -10
+				capital_economy_vs_traditional_economy = 90
+				individualism_vs_communalism = -20
+				outward_vs_inward = -30
+
+				privilege = {
+					#nobles
+					auxilium_et_consilium
+					nobles_land_rights
+					noble_marriage_rights
+					noble_fortification_licenses
+
+					#clergy
+					clergy_literacy_rights
+					clergy_enforced_unity
+
+					#burghers
+					market_fairs
+
+					#peasants
+					peasants_free_peasantry
+					peasants_represented_in_parliament
+					land_owning_farmers
+				}
+
+			}
+
+			capital = glogow
+		
+			accepted_cultures = { finnish gutnish }
+			tolerated_cultures = { tavastian karelian kvens }
+		}
+		# Goths
+		GOTH = {  
+			own_control_core = {
+				gdansk
+			}
+			
+			include = "expl_scandinavia"
+			include = "catholic_monarchy"
+
+			country_rank = rank_kingdom
+
+			starting_technology_level = 3
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = random
+				
+				laws = {
+					marriage_law = monogamous_marriage
+					heir_religion_law = heir_same_religion
+				}
+
+
+				centralization_vs_decentralization = 25
+				traditionalist_vs_innovative = 30
+				spiritualist_vs_humanist = -50
+				aristocracy_vs_plutocracy = -30
+				serfdom_vs_free_subjects = 50
+				mercantilism_vs_free_trade = -10
+				belligerent_vs_conciliatory = 10
+				quality_vs_quantity = -5
+				offensive_vs_defensive = -20
+				land_vs_naval = -10
+				capital_economy_vs_traditional_economy = 90
+				individualism_vs_communalism = -20
+				outward_vs_inward = -30
+
+				privilege = {
+					#nobles
+					auxilium_et_consilium
+					nobles_land_rights
+					noble_marriage_rights
+					noble_fortification_licenses
+
+					#clergy
+					clergy_literacy_rights
+					clergy_enforced_unity
+
+					#burghers
+					market_fairs
+
+					#peasants
+					peasants_free_peasantry
+					peasants_represented_in_parliament
+					land_owning_farmers
+				}
+
+			}
+
+			capital = gdansk
+		
+			accepted_cultures = { finnish gutnish }
+			tolerated_cultures = { tavastian karelian kvens }
+		}
+		# Neuri
+		NEUR = {  
+			own_control_core = {
+				plock
+			}
+
+			include = "expl_scandinavia"
+			include = "catholic_monarchy"
+
+			country_rank = rank_kingdom
+
+			starting_technology_level = 3
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = random
+				
+				laws = {
+					marriage_law = monogamous_marriage
+					heir_religion_law = heir_same_religion
+				}
+
+
+				centralization_vs_decentralization = 25
+				traditionalist_vs_innovative = 30
+				spiritualist_vs_humanist = -50
+				aristocracy_vs_plutocracy = -30
+				serfdom_vs_free_subjects = 50
+				mercantilism_vs_free_trade = -10
+				belligerent_vs_conciliatory = 10
+				quality_vs_quantity = -5
+				offensive_vs_defensive = -20
+				land_vs_naval = -10
+				capital_economy_vs_traditional_economy = 90
+				individualism_vs_communalism = -20
+				outward_vs_inward = -30
+
+				privilege = {
+					#nobles
+					auxilium_et_consilium
+					nobles_land_rights
+					noble_marriage_rights
+					noble_fortification_licenses
+
+					#clergy
+					clergy_literacy_rights
+					clergy_enforced_unity
+
+					#burghers
+					market_fairs
+
+					#peasants
+					peasants_free_peasantry
+					peasants_represented_in_parliament
+					land_owning_farmers
+				}
+
+			}
+
+			capital = plock
+		
+			accepted_cultures = { finnish gutnish }
+			tolerated_cultures = { tavastian karelian kvens }
+		}
+	#-------------------------- Balticum ----------------------------	
+		# Prussians
+		PRUS = {  
+			own_control_core = {
+				konigsberg
+			}
+
+			include = "expl_scandinavia"
+			include = "catholic_monarchy"
+
+			country_rank = rank_kingdom
+
+			starting_technology_level = 3
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = random
+				
+				laws = {
+					marriage_law = monogamous_marriage
+					heir_religion_law = heir_same_religion
+				}
+
+
+				centralization_vs_decentralization = 25
+				traditionalist_vs_innovative = 30
+				spiritualist_vs_humanist = -50
+				aristocracy_vs_plutocracy = -30
+				serfdom_vs_free_subjects = 50
+				mercantilism_vs_free_trade = -10
+				belligerent_vs_conciliatory = 10
+				quality_vs_quantity = -5
+				offensive_vs_defensive = -20
+				land_vs_naval = -10
+				capital_economy_vs_traditional_economy = 90
+				individualism_vs_communalism = -20
+				outward_vs_inward = -30
+
+				privilege = {
+					#nobles
+					auxilium_et_consilium
+					nobles_land_rights
+					noble_marriage_rights
+					noble_fortification_licenses
+
+					#clergy
+					clergy_literacy_rights
+					clergy_enforced_unity
+
+					#burghers
+					market_fairs
+
+					#peasants
+					peasants_free_peasantry
+					peasants_represented_in_parliament
+					land_owning_farmers
+				}
+
+			}
+
+			capital = konigsberg
+		
+			accepted_cultures = { finnish gutnish }
+			tolerated_cultures = { tavastian karelian kvens }
+		}
+	
+	#---------------------------- Britannia --------------------------------
+		# Kent
+		KENT = {  
+			own_control_core = {
+				canterbury
+			}
+
+			include = "expl_scandinavia"
+			include = "catholic_monarchy"
+
+			country_rank = rank_kingdom
+
+			starting_technology_level = 3
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = random
+				
+				laws = {
+					marriage_law = monogamous_marriage
+					heir_religion_law = heir_same_religion
+				}
+
+
+				centralization_vs_decentralization = 25
+				traditionalist_vs_innovative = 30
+				spiritualist_vs_humanist = -50
+				aristocracy_vs_plutocracy = -30
+				serfdom_vs_free_subjects = 50
+				mercantilism_vs_free_trade = -10
+				belligerent_vs_conciliatory = 10
+				quality_vs_quantity = -5
+				offensive_vs_defensive = -20
+				land_vs_naval = -10
+				capital_economy_vs_traditional_economy = 90
+				individualism_vs_communalism = -20
+				outward_vs_inward = -30
+
+				privilege = {
+					#nobles
+					auxilium_et_consilium
+					nobles_land_rights
+					noble_marriage_rights
+					noble_fortification_licenses
+
+					#clergy
+					clergy_literacy_rights
+					clergy_enforced_unity
+
+					#burghers
+					market_fairs
+
+					#peasants
+					peasants_free_peasantry
+					peasants_represented_in_parliament
+					land_owning_farmers
+				}
+
+			}
+
+			capital = canterbury
+		
+			accepted_cultures = { finnish gutnish }
+			tolerated_cultures = { tavastian karelian kvens }
+		}
+		# Atrebates
+		ERGY = {   
+			own_control_core = {
+				shoreham
+			}
+
+			include = "expl_scandinavia"
+			include = "catholic_monarchy"
+
+			country_rank = rank_kingdom
+
+			starting_technology_level = 3
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = random
+				
+				laws = {
+					marriage_law = monogamous_marriage
+					heir_religion_law = heir_same_religion
+				}
+
+
+				centralization_vs_decentralization = 25
+				traditionalist_vs_innovative = 30
+				spiritualist_vs_humanist = -50
+				aristocracy_vs_plutocracy = -30
+				serfdom_vs_free_subjects = 50
+				mercantilism_vs_free_trade = -10
+				belligerent_vs_conciliatory = 10
+				quality_vs_quantity = -5
+				offensive_vs_defensive = -20
+				land_vs_naval = -10
+				capital_economy_vs_traditional_economy = 90
+				individualism_vs_communalism = -20
+				outward_vs_inward = -30
+
+				privilege = {
+					#nobles
+					auxilium_et_consilium
+					nobles_land_rights
+					noble_marriage_rights
+					noble_fortification_licenses
+
+					#clergy
+					clergy_literacy_rights
+					clergy_enforced_unity
+
+					#burghers
+					market_fairs
+
+					#peasants
+					peasants_free_peasantry
+					peasants_represented_in_parliament
+					land_owning_farmers
+				}
+
+			}
+
+			capital = shoreham
+		
+			accepted_cultures = { finnish gutnish }
+			tolerated_cultures = { tavastian karelian kvens }
+		}
+		# Osraige
+		OSRA = {  
+			own_control_core = {
+				dublin
+			}
+
+			include = "expl_scandinavia"
+			include = "catholic_monarchy"
+
+			country_rank = rank_kingdom
+
+			starting_technology_level = 3
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = random
+				
+				laws = {
+					marriage_law = monogamous_marriage
+					heir_religion_law = heir_same_religion
+				}
+
+
+				centralization_vs_decentralization = 25
+				traditionalist_vs_innovative = 30
+				spiritualist_vs_humanist = -50
+				aristocracy_vs_plutocracy = -30
+				serfdom_vs_free_subjects = 50
+				mercantilism_vs_free_trade = -10
+				belligerent_vs_conciliatory = 10
+				quality_vs_quantity = -5
+				offensive_vs_defensive = -20
+				land_vs_naval = -10
+				capital_economy_vs_traditional_economy = 90
+				individualism_vs_communalism = -20
+				outward_vs_inward = -30
+
+				privilege = {
+					#nobles
+					auxilium_et_consilium
+					nobles_land_rights
+					noble_marriage_rights
+					noble_fortification_licenses
+
+					#clergy
+					clergy_literacy_rights
+					clergy_enforced_unity
+
+					#burghers
+					market_fairs
+
+					#peasants
+					peasants_free_peasantry
+					peasants_represented_in_parliament
+					land_owning_farmers
+				}
+
+			}
+
+			capital = dublin
+		
+			accepted_cultures = { finnish gutnish }
+			tolerated_cultures = { tavastian karelian kvens }
+		}
+		# Dumnonia
+		DUMN = {  
+			own_control_core = {
+				leicester
+			}
+
+			include = "expl_scandinavia"
+			include = "catholic_monarchy"
+
+			country_rank = rank_kingdom
+
+			starting_technology_level = 3
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = random
+				
+				laws = {
+					marriage_law = monogamous_marriage
+					heir_religion_law = heir_same_religion
+				}
+
+
+				centralization_vs_decentralization = 25
+				traditionalist_vs_innovative = 30
+				spiritualist_vs_humanist = -50
+				aristocracy_vs_plutocracy = -30
+				serfdom_vs_free_subjects = 50
+				mercantilism_vs_free_trade = -10
+				belligerent_vs_conciliatory = 10
+				quality_vs_quantity = -5
+				offensive_vs_defensive = -20
+				land_vs_naval = -10
+				capital_economy_vs_traditional_economy = 90
+				individualism_vs_communalism = -20
+				outward_vs_inward = -30
+
+				privilege = {
+					#nobles
+					auxilium_et_consilium
+					nobles_land_rights
+					noble_marriage_rights
+					noble_fortification_licenses
+
+					#clergy
+					clergy_literacy_rights
+					clergy_enforced_unity
+
+					#burghers
+					market_fairs
+
+					#peasants
+					peasants_free_peasantry
+					peasants_represented_in_parliament
+					land_owning_farmers
+				}
+
+			}
+
+			capital = leicester
+		
+			accepted_cultures = { finnish gutnish }
+			tolerated_cultures = { tavastian karelian kvens }
+		}
+		# Durotriges
+		DURO = {  
+			own_control_core = {
+				northampton
+			}
+
+			include = "expl_scandinavia"
+			include = "catholic_monarchy"
+
+			country_rank = rank_kingdom
+
+			starting_technology_level = 3
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = random
+				
+				laws = {
+					marriage_law = monogamous_marriage
+					heir_religion_law = heir_same_religion
+				}
+
+
+				centralization_vs_decentralization = 25
+				traditionalist_vs_innovative = 30
+				spiritualist_vs_humanist = -50
+				aristocracy_vs_plutocracy = -30
+				serfdom_vs_free_subjects = 50
+				mercantilism_vs_free_trade = -10
+				belligerent_vs_conciliatory = 10
+				quality_vs_quantity = -5
+				offensive_vs_defensive = -20
+				land_vs_naval = -10
+				capital_economy_vs_traditional_economy = 90
+				individualism_vs_communalism = -20
+				outward_vs_inward = -30
+
+				privilege = {
+					#nobles
+					auxilium_et_consilium
+					nobles_land_rights
+					noble_marriage_rights
+					noble_fortification_licenses
+
+					#clergy
+					clergy_literacy_rights
+					clergy_enforced_unity
+
+					#burghers
+					market_fairs
+
+					#peasants
+					peasants_free_peasantry
+					peasants_represented_in_parliament
+					land_owning_farmers
+				}
+
+			}
+
+			capital = northampton
+		
+			accepted_cultures = { finnish gutnish }
+			tolerated_cultures = { tavastian karelian kvens }
+		}
+		# Catuvellauni
+		CATU = {   
+			own_control_core = {
+				coventry
+			}
+
+			include = "expl_scandinavia"
+			include = "catholic_monarchy"
+
+			country_rank = rank_kingdom
+
+			starting_technology_level = 3
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = random
+				
+				laws = {
+					marriage_law = monogamous_marriage
+					heir_religion_law = heir_same_religion
+				}
+
+
+				centralization_vs_decentralization = 25
+				traditionalist_vs_innovative = 30
+				spiritualist_vs_humanist = -50
+				aristocracy_vs_plutocracy = -30
+				serfdom_vs_free_subjects = 50
+				mercantilism_vs_free_trade = -10
+				belligerent_vs_conciliatory = 10
+				quality_vs_quantity = -5
+				offensive_vs_defensive = -20
+				land_vs_naval = -10
+				capital_economy_vs_traditional_economy = 90
+				individualism_vs_communalism = -20
+				outward_vs_inward = -30
+
+				privilege = {
+					#nobles
+					auxilium_et_consilium
+					nobles_land_rights
+					noble_marriage_rights
+					noble_fortification_licenses
+
+					#clergy
+					clergy_literacy_rights
+					clergy_enforced_unity
+
+					#burghers
+					market_fairs
+
+					#peasants
+					peasants_free_peasantry
+					peasants_represented_in_parliament
+					land_owning_farmers
+				}
+
+			}
+
+			capital = coventry
+		
+			accepted_cultures = { finnish gutnish }
+			tolerated_cultures = { tavastian karelian kvens }
+		}
+		# Cornovii
+		CORV = {   
+			own_control_core = {
+				shrewsbury
+			}
+
+			include = "expl_scandinavia"
+			include = "catholic_monarchy"
+
+			country_rank = rank_kingdom
+
+			starting_technology_level = 3
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = random
+				
+				laws = {
+					marriage_law = monogamous_marriage
+					heir_religion_law = heir_same_religion
+				}
+
+
+				centralization_vs_decentralization = 25
+				traditionalist_vs_innovative = 30
+				spiritualist_vs_humanist = -50
+				aristocracy_vs_plutocracy = -30
+				serfdom_vs_free_subjects = 50
+				mercantilism_vs_free_trade = -10
+				belligerent_vs_conciliatory = 10
+				quality_vs_quantity = -5
+				offensive_vs_defensive = -20
+				land_vs_naval = -10
+				capital_economy_vs_traditional_economy = 90
+				individualism_vs_communalism = -20
+				outward_vs_inward = -30
+
+				privilege = {
+					#nobles
+					auxilium_et_consilium
+					nobles_land_rights
+					noble_marriage_rights
+					noble_fortification_licenses
+
+					#clergy
+					clergy_literacy_rights
+					clergy_enforced_unity
+
+					#burghers
+					market_fairs
+
+					#peasants
+					peasants_free_peasantry
+					peasants_represented_in_parliament
+					land_owning_farmers
+				}
+
+			}
+
+			capital = shrewsbury
+		
+			accepted_cultures = { finnish gutnish }
+			tolerated_cultures = { tavastian karelian kvens }
+		}
+		# Silures
+		SILU = {  
+			own_control_core = {
+				hereford
+			}
+
+			include = "expl_scandinavia"
+			include = "catholic_monarchy"
+
+			country_rank = rank_kingdom
+
+			starting_technology_level = 3
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = random
+				
+				laws = {
+					marriage_law = monogamous_marriage
+					heir_religion_law = heir_same_religion
+				}
+
+
+				centralization_vs_decentralization = 25
+				traditionalist_vs_innovative = 30
+				spiritualist_vs_humanist = -50
+				aristocracy_vs_plutocracy = -30
+				serfdom_vs_free_subjects = 50
+				mercantilism_vs_free_trade = -10
+				belligerent_vs_conciliatory = 10
+				quality_vs_quantity = -5
+				offensive_vs_defensive = -20
+				land_vs_naval = -10
+				capital_economy_vs_traditional_economy = 90
+				individualism_vs_communalism = -20
+				outward_vs_inward = -30
+
+				privilege = {
+					#nobles
+					auxilium_et_consilium
+					nobles_land_rights
+					noble_marriage_rights
+					noble_fortification_licenses
+
+					#clergy
+					clergy_literacy_rights
+					clergy_enforced_unity
+
+					#burghers
+					market_fairs
+
+					#peasants
+					peasants_free_peasantry
+					peasants_represented_in_parliament
+					land_owning_farmers
+				}
+
+			}
+
+			capital = hereford
+		
+			accepted_cultures = { finnish gutnish }
+			tolerated_cultures = { tavastian karelian kvens }
+		}
+		# Ordovices
+		ORDO = {  
+			own_control_core = {
+				worcester
+			}
+
+			include = "expl_scandinavia"
+			include = "catholic_monarchy"
+
+			country_rank = rank_kingdom
+
+			starting_technology_level = 3
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = random
+				
+				laws = {
+					marriage_law = monogamous_marriage
+					heir_religion_law = heir_same_religion
+				}
+
+
+				centralization_vs_decentralization = 25
+				traditionalist_vs_innovative = 30
+				spiritualist_vs_humanist = -50
+				aristocracy_vs_plutocracy = -30
+				serfdom_vs_free_subjects = 50
+				mercantilism_vs_free_trade = -10
+				belligerent_vs_conciliatory = 10
+				quality_vs_quantity = -5
+				offensive_vs_defensive = -20
+				land_vs_naval = -10
+				capital_economy_vs_traditional_economy = 90
+				individualism_vs_communalism = -20
+				outward_vs_inward = -30
+
+				privilege = {
+					#nobles
+					auxilium_et_consilium
+					nobles_land_rights
+					noble_marriage_rights
+					noble_fortification_licenses
+
+					#clergy
+					clergy_literacy_rights
+					clergy_enforced_unity
+
+					#burghers
+					market_fairs
+
+					#peasants
+					peasants_free_peasantry
+					peasants_represented_in_parliament
+					land_owning_farmers
+				}
+
+			}
+
+			capital = worcester
+		
+			accepted_cultures = { finnish gutnish }
+			tolerated_cultures = { tavastian karelian kvens }
+		}
+		# Corieltauvi
+		CORI = {  
+			own_control_core = {
+				stafford
+			}
+
+			include = "expl_scandinavia"
+			include = "catholic_monarchy"
+
+			country_rank = rank_kingdom
+
+			starting_technology_level = 3
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = random
+				
+				laws = {
+					marriage_law = monogamous_marriage
+					heir_religion_law = heir_same_religion
+				}
+
+
+				centralization_vs_decentralization = 25
+				traditionalist_vs_innovative = 30
+				spiritualist_vs_humanist = -50
+				aristocracy_vs_plutocracy = -30
+				serfdom_vs_free_subjects = 50
+				mercantilism_vs_free_trade = -10
+				belligerent_vs_conciliatory = 10
+				quality_vs_quantity = -5
+				offensive_vs_defensive = -20
+				land_vs_naval = -10
+				capital_economy_vs_traditional_economy = 90
+				individualism_vs_communalism = -20
+				outward_vs_inward = -30
+
+				privilege = {
+					#nobles
+					auxilium_et_consilium
+					nobles_land_rights
+					noble_marriage_rights
+					noble_fortification_licenses
+
+					#clergy
+					clergy_literacy_rights
+					clergy_enforced_unity
+
+					#burghers
+					market_fairs
+
+					#peasants
+					peasants_free_peasantry
+					peasants_represented_in_parliament
+					land_owning_farmers
+				}
+
+			}
+
+			capital = stafford
+		
+			accepted_cultures = { finnish gutnish }
+			tolerated_cultures = { tavastian karelian kvens }
+		}
+		# Brigantes
+		BRIG = {  
+			own_control_core = {
+				lancaster
+			}
+
+			include = "expl_scandinavia"
+			include = "catholic_monarchy"
+
+			country_rank = rank_kingdom
+
+			starting_technology_level = 3
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = random
+				
+				laws = {
+					marriage_law = monogamous_marriage
+					heir_religion_law = heir_same_religion
+				}
+
+
+				centralization_vs_decentralization = 25
+				traditionalist_vs_innovative = 30
+				spiritualist_vs_humanist = -50
+				aristocracy_vs_plutocracy = -30
+				serfdom_vs_free_subjects = 50
+				mercantilism_vs_free_trade = -10
+				belligerent_vs_conciliatory = 10
+				quality_vs_quantity = -5
+				offensive_vs_defensive = -20
+				land_vs_naval = -10
+				capital_economy_vs_traditional_economy = 90
+				individualism_vs_communalism = -20
+				outward_vs_inward = -30
+
+				privilege = {
+					#nobles
+					auxilium_et_consilium
+					nobles_land_rights
+					noble_marriage_rights
+					noble_fortification_licenses
+
+					#clergy
+					clergy_literacy_rights
+					clergy_enforced_unity
+
+					#burghers
+					market_fairs
+
+					#peasants
+					peasants_free_peasantry
+					peasants_represented_in_parliament
+					land_owning_farmers
+				}
+
+			}
+
+			capital = lancaster
+		
+			accepted_cultures = { finnish gutnish }
+			tolerated_cultures = { tavastian karelian kvens }
+		}
+		# Damnonia
+		DAMN = {   
+			own_control_core = {
+				york
+			}
+
+			include = "expl_scandinavia"
+			include = "catholic_monarchy"
+
+			country_rank = rank_kingdom
+
+			starting_technology_level = 3
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = random
+				
+				laws = {
+					marriage_law = monogamous_marriage
+					heir_religion_law = heir_same_religion
+				}
+
+
+				centralization_vs_decentralization = 25
+				traditionalist_vs_innovative = 30
+				spiritualist_vs_humanist = -50
+				aristocracy_vs_plutocracy = -30
+				serfdom_vs_free_subjects = 50
+				mercantilism_vs_free_trade = -10
+				belligerent_vs_conciliatory = 10
+				quality_vs_quantity = -5
+				offensive_vs_defensive = -20
+				land_vs_naval = -10
+				capital_economy_vs_traditional_economy = 90
+				individualism_vs_communalism = -20
+				outward_vs_inward = -30
+
+				privilege = {
+					#nobles
+					auxilium_et_consilium
+					nobles_land_rights
+					noble_marriage_rights
+					noble_fortification_licenses
+
+					#clergy
+					clergy_literacy_rights
+					clergy_enforced_unity
+
+					#burghers
+					market_fairs
+
+					#peasants
+					peasants_free_peasantry
+					peasants_represented_in_parliament
+					land_owning_farmers
+				}
+
+			}
+
+			capital = york
+		
+			accepted_cultures = { finnish gutnish }
+			tolerated_cultures = { tavastian karelian kvens }
+		}
+		# Votadini
+		VOTA = {  
+			own_control_core = {
+				hull
+			}
+
+			include = "expl_scandinavia"
+			include = "catholic_monarchy"
+
+			country_rank = rank_kingdom
+
+			starting_technology_level = 3
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = random
+				
+				laws = {
+					marriage_law = monogamous_marriage
+					heir_religion_law = heir_same_religion
+				}
+
+
+				centralization_vs_decentralization = 25
+				traditionalist_vs_innovative = 30
+				spiritualist_vs_humanist = -50
+				aristocracy_vs_plutocracy = -30
+				serfdom_vs_free_subjects = 50
+				mercantilism_vs_free_trade = -10
+				belligerent_vs_conciliatory = 10
+				quality_vs_quantity = -5
+				offensive_vs_defensive = -20
+				land_vs_naval = -10
+				capital_economy_vs_traditional_economy = 90
+				individualism_vs_communalism = -20
+				outward_vs_inward = -30
+
+				privilege = {
+					#nobles
+					auxilium_et_consilium
+					nobles_land_rights
+					noble_marriage_rights
+					noble_fortification_licenses
+
+					#clergy
+					clergy_literacy_rights
+					clergy_enforced_unity
+
+					#burghers
+					market_fairs
+
+					#peasants
+					peasants_free_peasantry
+					peasants_represented_in_parliament
+					land_owning_farmers
+				}
+
+			}
+
+			capital = hull
+		
+			accepted_cultures = { finnish gutnish }
+			tolerated_cultures = { tavastian karelian kvens }
+		}
+		# Caledonia
+		CALE = {  
+			own_control_core = {
+				lewis
+			}
+
+			include = "expl_scandinavia"
+			include = "catholic_monarchy"
+
+			country_rank = rank_kingdom
+
+			starting_technology_level = 3
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = random
+				
+				laws = {
+					marriage_law = monogamous_marriage
+					heir_religion_law = heir_same_religion
+				}
+
+
+				centralization_vs_decentralization = 25
+				traditionalist_vs_innovative = 30
+				spiritualist_vs_humanist = -50
+				aristocracy_vs_plutocracy = -30
+				serfdom_vs_free_subjects = 50
+				mercantilism_vs_free_trade = -10
+				belligerent_vs_conciliatory = 10
+				quality_vs_quantity = -5
+				offensive_vs_defensive = -20
+				land_vs_naval = -10
+				capital_economy_vs_traditional_economy = 90
+				individualism_vs_communalism = -20
+				outward_vs_inward = -30
+
+				privilege = {
+					#nobles
+					auxilium_et_consilium
+					nobles_land_rights
+					noble_marriage_rights
+					noble_fortification_licenses
+
+					#clergy
+					clergy_literacy_rights
+					clergy_enforced_unity
+
+					#burghers
+					market_fairs
+
+					#peasants
+					peasants_free_peasantry
+					peasants_represented_in_parliament
+					land_owning_farmers
+				}
+
+			}
+
+			capital = lewis
+		
+			accepted_cultures = { finnish gutnish }
+			tolerated_cultures = { tavastian karelian kvens }
+		}
+		# Taexali
+		TAEX = {  
+			own_control_core = {
+				inverness
+			}
+
+			include = "expl_scandinavia"
+			include = "catholic_monarchy"
+
+			country_rank = rank_kingdom
+
+			starting_technology_level = 3
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = random
+				
+				laws = {
+					marriage_law = monogamous_marriage
+					heir_religion_law = heir_same_religion
+				}
+
+
+				centralization_vs_decentralization = 25
+				traditionalist_vs_innovative = 30
+				spiritualist_vs_humanist = -50
+				aristocracy_vs_plutocracy = -30
+				serfdom_vs_free_subjects = 50
+				mercantilism_vs_free_trade = -10
+				belligerent_vs_conciliatory = 10
+				quality_vs_quantity = -5
+				offensive_vs_defensive = -20
+				land_vs_naval = -10
+				capital_economy_vs_traditional_economy = 90
+				individualism_vs_communalism = -20
+				outward_vs_inward = -30
+
+				privilege = {
+					#nobles
+					auxilium_et_consilium
+					nobles_land_rights
+					noble_marriage_rights
+					noble_fortification_licenses
+
+					#clergy
+					clergy_literacy_rights
+					clergy_enforced_unity
+
+					#burghers
+					market_fairs
+
+					#peasants
+					peasants_free_peasantry
+					peasants_represented_in_parliament
+					land_owning_farmers
+				}
+
+			}
+
+			capital = inverness
+		
+			accepted_cultures = { finnish gutnish }
+			tolerated_cultures = { tavastian karelian kvens }
+		}
+		# Lugi
+		LUGI = {  
+			own_control_core = {
+				cowal
+			}
+
+			include = "expl_scandinavia"
+			include = "catholic_monarchy"
+
+			country_rank = rank_kingdom
+
+			starting_technology_level = 3
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = random
+				
+				laws = {
+					marriage_law = monogamous_marriage
+					heir_religion_law = heir_same_religion
+				}
+
+
+				centralization_vs_decentralization = 25
+				traditionalist_vs_innovative = 30
+				spiritualist_vs_humanist = -50
+				aristocracy_vs_plutocracy = -30
+				serfdom_vs_free_subjects = 50
+				mercantilism_vs_free_trade = -10
+				belligerent_vs_conciliatory = 10
+				quality_vs_quantity = -5
+				offensive_vs_defensive = -20
+				land_vs_naval = -10
+				capital_economy_vs_traditional_economy = 90
+				individualism_vs_communalism = -20
+				outward_vs_inward = -30
+
+				privilege = {
+					#nobles
+					auxilium_et_consilium
+					nobles_land_rights
+					noble_marriage_rights
+					noble_fortification_licenses
+
+					#clergy
+					clergy_literacy_rights
+					clergy_enforced_unity
+
+					#burghers
+					market_fairs
+
+					#peasants
+					peasants_free_peasantry
+					peasants_represented_in_parliament
+					land_owning_farmers
+				}
+
+			}
+
+			capital = cowal
+		
+			accepted_cultures = { finnish gutnish }
+			tolerated_cultures = { tavastian karelian kvens }
+		}
+	#---------------------------- Italy --------------------------------
+		# Roman Empire
+		ROM = {  
+			own_control_core = {
+				rome terracina velletri
+			}
+
+			include = "expl_scandinavia"
+			include = "catholic_monarchy"
+
+			country_rank = rank_kingdom
+
+			starting_technology_level = 3
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = random
+				
+				laws = {
+					marriage_law = monogamous_marriage
+					heir_religion_law = heir_same_religion
+				}
+
+
+				centralization_vs_decentralization = 25
+				traditionalist_vs_innovative = 30
+				spiritualist_vs_humanist = -50
+				aristocracy_vs_plutocracy = -30
+				serfdom_vs_free_subjects = 50
+				mercantilism_vs_free_trade = -10
+				belligerent_vs_conciliatory = 10
+				quality_vs_quantity = -5
+				offensive_vs_defensive = -20
+				land_vs_naval = -10
+				capital_economy_vs_traditional_economy = 90
+				individualism_vs_communalism = -20
+				outward_vs_inward = -30
+
+				privilege = {
+					#nobles
+					auxilium_et_consilium
+					nobles_land_rights
+					noble_marriage_rights
+					noble_fortification_licenses
+
+					#clergy
+					clergy_literacy_rights
+					clergy_enforced_unity
+
+					#burghers
+					market_fairs
+
+					#peasants
+					peasants_free_peasantry
+					peasants_represented_in_parliament
+					land_owning_farmers
+				}
+
+			}
+
+			capital = rome
+		
+			accepted_cultures = { finnish gutnish }
+			tolerated_cultures = { tavastian karelian kvens }
+		}
+		# Cotti
+		COTT = {   
+			own_control_core = {
+				susa
+			}
+
+			include = "expl_scandinavia"
+			include = "catholic_monarchy"
+
+			country_rank = rank_kingdom
+
+			starting_technology_level = 3
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = random
+				
+				laws = {
+					marriage_law = monogamous_marriage
+					heir_religion_law = heir_same_religion
+				}
+
+
+				centralization_vs_decentralization = 25
+				traditionalist_vs_innovative = 30
+				spiritualist_vs_humanist = -50
+				aristocracy_vs_plutocracy = -30
+				serfdom_vs_free_subjects = 50
+				mercantilism_vs_free_trade = -10
+				belligerent_vs_conciliatory = 10
+				quality_vs_quantity = -5
+				offensive_vs_defensive = -20
+				land_vs_naval = -10
+				capital_economy_vs_traditional_economy = 90
+				individualism_vs_communalism = -20
+				outward_vs_inward = -30
+
+				privilege = {
+					#nobles
+					auxilium_et_consilium
+					nobles_land_rights
+					noble_marriage_rights
+					noble_fortification_licenses
+
+					#clergy
+					clergy_literacy_rights
+					clergy_enforced_unity
+
+					#burghers
+					market_fairs
+
+					#peasants
+					peasants_free_peasantry
+					peasants_represented_in_parliament
+					land_owning_farmers
+				}
+
+			}
+
+			capital = susa
+		
+			accepted_cultures = { finnish gutnish }
+			tolerated_cultures = { tavastian karelian kvens }
+		}
+	
+	#---------------------------- North Africa --------------------------------
+		# Mauretania
+		MAUT = {   
+			own_control_core = {
+				fez
+			}
+
+			include = "expl_scandinavia"
+			include = "catholic_monarchy"
+
+			country_rank = rank_kingdom
+
+			starting_technology_level = 3
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = random
+				
+				laws = {
+					marriage_law = monogamous_marriage
+					heir_religion_law = heir_same_religion
+				}
+
+
+				centralization_vs_decentralization = 25
+				traditionalist_vs_innovative = 30
+				spiritualist_vs_humanist = -50
+				aristocracy_vs_plutocracy = -30
+				serfdom_vs_free_subjects = 50
+				mercantilism_vs_free_trade = -10
+				belligerent_vs_conciliatory = 10
+				quality_vs_quantity = -5
+				offensive_vs_defensive = -20
+				land_vs_naval = -10
+				capital_economy_vs_traditional_economy = 90
+				individualism_vs_communalism = -20
+				outward_vs_inward = -30
+
+				privilege = {
+					#nobles
+					auxilium_et_consilium
+					nobles_land_rights
+					noble_marriage_rights
+					noble_fortification_licenses
+
+					#clergy
+					clergy_literacy_rights
+					clergy_enforced_unity
+
+					#burghers
+					market_fairs
+
+					#peasants
+					peasants_free_peasantry
+					peasants_represented_in_parliament
+					land_owning_farmers
+				}
+
+			}
+
+			capital = fez
+		
+			accepted_cultures = { finnish gutnish }
+			tolerated_cultures = { tavastian karelian kvens }
+		}
+		# Gaetuli
+		GAET = {   
+			own_control_core = {
+				mostaganem
+			}
+
+			include = "expl_scandinavia"
+			include = "catholic_monarchy"
+
+			country_rank = rank_kingdom
+
+			starting_technology_level = 3
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = random
+				
+				laws = {
+					marriage_law = monogamous_marriage
+					heir_religion_law = heir_same_religion
+				}
+
+
+				centralization_vs_decentralization = 25
+				traditionalist_vs_innovative = 30
+				spiritualist_vs_humanist = -50
+				aristocracy_vs_plutocracy = -30
+				serfdom_vs_free_subjects = 50
+				mercantilism_vs_free_trade = -10
+				belligerent_vs_conciliatory = 10
+				quality_vs_quantity = -5
+				offensive_vs_defensive = -20
+				land_vs_naval = -10
+				capital_economy_vs_traditional_economy = 90
+				individualism_vs_communalism = -20
+				outward_vs_inward = -30
+
+				privilege = {
+					#nobles
+					auxilium_et_consilium
+					nobles_land_rights
+					noble_marriage_rights
+					noble_fortification_licenses
+
+					#clergy
+					clergy_literacy_rights
+					clergy_enforced_unity
+
+					#burghers
+					market_fairs
+
+					#peasants
+					peasants_free_peasantry
+					peasants_represented_in_parliament
+					land_owning_farmers
+				}
+
+			}
+
+			capital = mostaganem
+		
+			accepted_cultures = { finnish gutnish }
+			tolerated_cultures = { tavastian karelian kvens }
+		}
+		# Nasamones
+		NASA = {  
+			own_control_core = {
+				algiers
+			}
+
+			include = "expl_scandinavia"
+			include = "catholic_monarchy"
+
+			country_rank = rank_kingdom
+
+			starting_technology_level = 3
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = random
+				
+				laws = {
+					marriage_law = monogamous_marriage
+					heir_religion_law = heir_same_religion
+				}
+
+
+				centralization_vs_decentralization = 25
+				traditionalist_vs_innovative = 30
+				spiritualist_vs_humanist = -50
+				aristocracy_vs_plutocracy = -30
+				serfdom_vs_free_subjects = 50
+				mercantilism_vs_free_trade = -10
+				belligerent_vs_conciliatory = 10
+				quality_vs_quantity = -5
+				offensive_vs_defensive = -20
+				land_vs_naval = -10
+				capital_economy_vs_traditional_economy = 90
+				individualism_vs_communalism = -20
+				outward_vs_inward = -30
+
+				privilege = {
+					#nobles
+					auxilium_et_consilium
+					nobles_land_rights
+					noble_marriage_rights
+					noble_fortification_licenses
+
+					#clergy
+					clergy_literacy_rights
+					clergy_enforced_unity
+
+					#burghers
+					market_fairs
+
+					#peasants
+					peasants_free_peasantry
+					peasants_represented_in_parliament
+					land_owning_farmers
+				}
+
+			}
+
+			capital = algiers
+		
+			accepted_cultures = { finnish gutnish }
+			tolerated_cultures = { tavastian karelian kvens }
+		}
+		# Garamantes
+		GARA = {    
+			own_control_core = {
+				annaba
+			}
+
+			include = "expl_scandinavia"
+			include = "catholic_monarchy"
+
+			country_rank = rank_kingdom
+
+			starting_technology_level = 3
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = random
+				
+				laws = {
+					marriage_law = monogamous_marriage
+					heir_religion_law = heir_same_religion
+				}
+
+
+				centralization_vs_decentralization = 25
+				traditionalist_vs_innovative = 30
+				spiritualist_vs_humanist = -50
+				aristocracy_vs_plutocracy = -30
+				serfdom_vs_free_subjects = 50
+				mercantilism_vs_free_trade = -10
+				belligerent_vs_conciliatory = 10
+				quality_vs_quantity = -5
+				offensive_vs_defensive = -20
+				land_vs_naval = -10
+				capital_economy_vs_traditional_economy = 90
+				individualism_vs_communalism = -20
+				outward_vs_inward = -30
+
+				privilege = {
+					#nobles
+					auxilium_et_consilium
+					nobles_land_rights
+					noble_marriage_rights
+					noble_fortification_licenses
+
+					#clergy
+					clergy_literacy_rights
+					clergy_enforced_unity
+
+					#burghers
+					market_fairs
+
+					#peasants
+					peasants_free_peasantry
+					peasants_represented_in_parliament
+					land_owning_farmers
+				}
+
+			}
+
+			capital = annaba
+		
+			accepted_cultures = { finnish gutnish }
+			tolerated_cultures = { tavastian karelian kvens }
+		}
+		# Atlas
+		ATLA = {   
+			own_control_core = {
+				biskra
+			}
+
+			include = "expl_scandinavia"
+			include = "catholic_monarchy"
+
+			country_rank = rank_kingdom
+
+			starting_technology_level = 3
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = random
+				
+				laws = {
+					marriage_law = monogamous_marriage
+					heir_religion_law = heir_same_religion
+				}
+
+
+				centralization_vs_decentralization = 25
+				traditionalist_vs_innovative = 30
+				spiritualist_vs_humanist = -50
+				aristocracy_vs_plutocracy = -30
+				serfdom_vs_free_subjects = 50
+				mercantilism_vs_free_trade = -10
+				belligerent_vs_conciliatory = 10
+				quality_vs_quantity = -5
+				offensive_vs_defensive = -20
+				land_vs_naval = -10
+				capital_economy_vs_traditional_economy = 90
+				individualism_vs_communalism = -20
+				outward_vs_inward = -30
+
+				privilege = {
+					#nobles
+					auxilium_et_consilium
+					nobles_land_rights
+					noble_marriage_rights
+					noble_fortification_licenses
+
+					#clergy
+					clergy_literacy_rights
+					clergy_enforced_unity
+
+					#burghers
+					market_fairs
+
+					#peasants
+					peasants_free_peasantry
+					peasants_represented_in_parliament
+					land_owning_farmers
+				}
+
+			}
+
+			capital = biskra
+		
+			accepted_cultures = { finnish gutnish }
+			tolerated_cultures = { tavastian karelian kvens }
+		}
+		# Sijilmasa
+		SIJI = {    
+			own_control_core = {
+				tamdoult
+			}
+
+			include = "expl_scandinavia"
+			include = "catholic_monarchy"
+
+			country_rank = rank_kingdom
+
+			starting_technology_level = 3
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = random
+				
+				laws = {
+					marriage_law = monogamous_marriage
+					heir_religion_law = heir_same_religion
+				}
+
+
+				centralization_vs_decentralization = 25
+				traditionalist_vs_innovative = 30
+				spiritualist_vs_humanist = -50
+				aristocracy_vs_plutocracy = -30
+				serfdom_vs_free_subjects = 50
+				mercantilism_vs_free_trade = -10
+				belligerent_vs_conciliatory = 10
+				quality_vs_quantity = -5
+				offensive_vs_defensive = -20
+				land_vs_naval = -10
+				capital_economy_vs_traditional_economy = 90
+				individualism_vs_communalism = -20
+				outward_vs_inward = -30
+
+				privilege = {
+					#nobles
+					auxilium_et_consilium
+					nobles_land_rights
+					noble_marriage_rights
+					noble_fortification_licenses
+
+					#clergy
+					clergy_literacy_rights
+					clergy_enforced_unity
+
+					#burghers
+					market_fairs
+
+					#peasants
+					peasants_free_peasantry
+					peasants_represented_in_parliament
+					land_owning_farmers
+				}
+
+			}
+
+			capital = tamdoult
+		
+			accepted_cultures = { finnish gutnish }
+			tolerated_cultures = { tavastian karelian kvens }
+		}
+		# Mauri
+		MOOR = {    
+			own_control_core = {
+				sijilmasa
+			}
+
+			include = "expl_scandinavia"
+			include = "catholic_monarchy"
+
+			country_rank = rank_kingdom
+
+			starting_technology_level = 3
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = random
+				
+				laws = {
+					marriage_law = monogamous_marriage
+					heir_religion_law = heir_same_religion
+				}
+
+
+				centralization_vs_decentralization = 25
+				traditionalist_vs_innovative = 30
+				spiritualist_vs_humanist = -50
+				aristocracy_vs_plutocracy = -30
+				serfdom_vs_free_subjects = 50
+				mercantilism_vs_free_trade = -10
+				belligerent_vs_conciliatory = 10
+				quality_vs_quantity = -5
+				offensive_vs_defensive = -20
+				land_vs_naval = -10
+				capital_economy_vs_traditional_economy = 90
+				individualism_vs_communalism = -20
+				outward_vs_inward = -30
+
+				privilege = {
+					#nobles
+					auxilium_et_consilium
+					nobles_land_rights
+					noble_marriage_rights
+					noble_fortification_licenses
+
+					#clergy
+					clergy_literacy_rights
+					clergy_enforced_unity
+
+					#burghers
+					market_fairs
+
+					#peasants
+					peasants_free_peasantry
+					peasants_represented_in_parliament
+					land_owning_farmers
+				}
+
+			}
+
+			capital = sijilmasa
+		
+			accepted_cultures = { finnish gutnish }
+			tolerated_cultures = { tavastian karelian kvens }
+		}
+	#---------------------------- Pontic Steppe --------------------------------
+		# Bosporus
+		BOSP = {     
+			own_control_core = {
+				tana
+			}
+
+			include = "expl_scandinavia"
+			include = "catholic_monarchy"
+
+			country_rank = rank_kingdom
+
+			starting_technology_level = 3
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = random
+				
+				laws = {
+					marriage_law = monogamous_marriage
+					heir_religion_law = heir_same_religion
+				}
+
+
+				centralization_vs_decentralization = 25
+				traditionalist_vs_innovative = 30
+				spiritualist_vs_humanist = -50
+				aristocracy_vs_plutocracy = -30
+				serfdom_vs_free_subjects = 50
+				mercantilism_vs_free_trade = -10
+				belligerent_vs_conciliatory = 10
+				quality_vs_quantity = -5
+				offensive_vs_defensive = -20
+				land_vs_naval = -10
+				capital_economy_vs_traditional_economy = 90
+				individualism_vs_communalism = -20
+				outward_vs_inward = -30
+
+				privilege = {
+					#nobles
+					auxilium_et_consilium
+					nobles_land_rights
+					noble_marriage_rights
+					noble_fortification_licenses
+
+					#clergy
+					clergy_literacy_rights
+					clergy_enforced_unity
+
+					#burghers
+					market_fairs
+
+					#peasants
+					peasants_free_peasantry
+					peasants_represented_in_parliament
+					land_owning_farmers
+				}
+
+			}
+
+			capital = tana
+		
+			accepted_cultures = { finnish gutnish }
+			tolerated_cultures = { tavastian karelian kvens }
+		}
+		# Aorsi
+		AORS = {    
+			own_control_core = {
+				kremenskaya
+			}
+
+			include = "expl_scandinavia"
+			include = "catholic_monarchy"
+
+			country_rank = rank_kingdom
+
+			starting_technology_level = 3
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = random
+				
+				laws = {
+					marriage_law = monogamous_marriage
+					heir_religion_law = heir_same_religion
+				}
+
+
+				centralization_vs_decentralization = 25
+				traditionalist_vs_innovative = 30
+				spiritualist_vs_humanist = -50
+				aristocracy_vs_plutocracy = -30
+				serfdom_vs_free_subjects = 50
+				mercantilism_vs_free_trade = -10
+				belligerent_vs_conciliatory = 10
+				quality_vs_quantity = -5
+				offensive_vs_defensive = -20
+				land_vs_naval = -10
+				capital_economy_vs_traditional_economy = 90
+				individualism_vs_communalism = -20
+				outward_vs_inward = -30
+
+				privilege = {
+					#nobles
+					auxilium_et_consilium
+					nobles_land_rights
+					noble_marriage_rights
+					noble_fortification_licenses
+
+					#clergy
+					clergy_literacy_rights
+					clergy_enforced_unity
+
+					#burghers
+					market_fairs
+
+					#peasants
+					peasants_free_peasantry
+					peasants_represented_in_parliament
+					land_owning_farmers
+				}
+
+			}
+
+			capital = kremenskaya
+		
+			accepted_cultures = { finnish gutnish }
+			tolerated_cultures = { tavastian karelian kvens }
+		}
+		# Sarmatians
+		SARM = {    
+			own_control_core = {
+				astrakhan
+			}
+
+			include = "expl_scandinavia"
+			include = "catholic_monarchy"
+
+			country_rank = rank_kingdom
+
+			starting_technology_level = 3
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = random
+				
+				laws = {
+					marriage_law = monogamous_marriage
+					heir_religion_law = heir_same_religion
+				}
+
+
+				centralization_vs_decentralization = 25
+				traditionalist_vs_innovative = 30
+				spiritualist_vs_humanist = -50
+				aristocracy_vs_plutocracy = -30
+				serfdom_vs_free_subjects = 50
+				mercantilism_vs_free_trade = -10
+				belligerent_vs_conciliatory = 10
+				quality_vs_quantity = -5
+				offensive_vs_defensive = -20
+				land_vs_naval = -10
+				capital_economy_vs_traditional_economy = 90
+				individualism_vs_communalism = -20
+				outward_vs_inward = -30
+
+				privilege = {
+					#nobles
+					auxilium_et_consilium
+					nobles_land_rights
+					noble_marriage_rights
+					noble_fortification_licenses
+
+					#clergy
+					clergy_literacy_rights
+					clergy_enforced_unity
+
+					#burghers
+					market_fairs
+
+					#peasants
+					peasants_free_peasantry
+					peasants_represented_in_parliament
+					land_owning_farmers
+				}
+
+			}
+
+			capital = astrakhan
+		
+			accepted_cultures = { finnish gutnish }
+			tolerated_cultures = { tavastian karelian kvens }
+		}
+		# Alania
+		ALN = {    
+			own_control_core = {
+				majar
+			}
+
+			include = "expl_scandinavia"
+			include = "catholic_monarchy"
+
+			country_rank = rank_kingdom
+
+			starting_technology_level = 3
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = random
+				
+				laws = {
+					marriage_law = monogamous_marriage
+					heir_religion_law = heir_same_religion
+				}
+
+
+				centralization_vs_decentralization = 25
+				traditionalist_vs_innovative = 30
+				spiritualist_vs_humanist = -50
+				aristocracy_vs_plutocracy = -30
+				serfdom_vs_free_subjects = 50
+				mercantilism_vs_free_trade = -10
+				belligerent_vs_conciliatory = 10
+				quality_vs_quantity = -5
+				offensive_vs_defensive = -20
+				land_vs_naval = -10
+				capital_economy_vs_traditional_economy = 90
+				individualism_vs_communalism = -20
+				outward_vs_inward = -30
+
+				privilege = {
+					#nobles
+					auxilium_et_consilium
+					nobles_land_rights
+					noble_marriage_rights
+					noble_fortification_licenses
+
+					#clergy
+					clergy_literacy_rights
+					clergy_enforced_unity
+
+					#burghers
+					market_fairs
+
+					#peasants
+					peasants_free_peasantry
+					peasants_represented_in_parliament
+					land_owning_farmers
+				}
+
+			}
+
+			capital = majar
+		
+			accepted_cultures = { finnish gutnish }
+			tolerated_cultures = { tavastian karelian kvens }
+		}
+	#---------------------------- Ruthenia --------------------------------
+		# Venedi
+		VEND = {    
+			own_control_core = {
+				drohiczyn
+			}
+
+			include = "expl_scandinavia"
+			include = "catholic_monarchy"
+
+			country_rank = rank_kingdom
+
+			starting_technology_level = 3
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = random
+				
+				laws = {
+					marriage_law = monogamous_marriage
+					heir_religion_law = heir_same_religion
+				}
+
+
+				centralization_vs_decentralization = 25
+				traditionalist_vs_innovative = 30
+				spiritualist_vs_humanist = -50
+				aristocracy_vs_plutocracy = -30
+				serfdom_vs_free_subjects = 50
+				mercantilism_vs_free_trade = -10
+				belligerent_vs_conciliatory = 10
+				quality_vs_quantity = -5
+				offensive_vs_defensive = -20
+				land_vs_naval = -10
+				capital_economy_vs_traditional_economy = 90
+				individualism_vs_communalism = -20
+				outward_vs_inward = -30
+
+				privilege = {
+					#nobles
+					auxilium_et_consilium
+					nobles_land_rights
+					noble_marriage_rights
+					noble_fortification_licenses
+
+					#clergy
+					clergy_literacy_rights
+					clergy_enforced_unity
+
+					#burghers
+					market_fairs
+
+					#peasants
+					peasants_free_peasantry
+					peasants_represented_in_parliament
+					land_owning_farmers
+				}
+
+			}
+
+			capital = drohiczyn
+		
+			accepted_cultures = { finnish gutnish }
+			tolerated_cultures = { tavastian karelian kvens }
+		}
+		# Antes
+		ANTE = {   
+			own_control_core = {
+				kyiv
+			}
+
+			include = "expl_scandinavia"
+			include = "catholic_monarchy"
+
+			country_rank = rank_kingdom
+
+			starting_technology_level = 3
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = random
+				
+				laws = {
+					marriage_law = monogamous_marriage
+					heir_religion_law = heir_same_religion
+				}
+
+
+				centralization_vs_decentralization = 25
+				traditionalist_vs_innovative = 30
+				spiritualist_vs_humanist = -50
+				aristocracy_vs_plutocracy = -30
+				serfdom_vs_free_subjects = 50
+				mercantilism_vs_free_trade = -10
+				belligerent_vs_conciliatory = 10
+				quality_vs_quantity = -5
+				offensive_vs_defensive = -20
+				land_vs_naval = -10
+				capital_economy_vs_traditional_economy = 90
+				individualism_vs_communalism = -20
+				outward_vs_inward = -30
+
+				privilege = {
+					#nobles
+					auxilium_et_consilium
+					nobles_land_rights
+					noble_marriage_rights
+					noble_fortification_licenses
+
+					#clergy
+					clergy_literacy_rights
+					clergy_enforced_unity
+
+					#burghers
+					market_fairs
+
+					#peasants
+					peasants_free_peasantry
+					peasants_represented_in_parliament
+					land_owning_farmers
+				}
+
+			}
+
+			capital = kyiv
+		
+			accepted_cultures = { finnish gutnish }
+			tolerated_cultures = { tavastian karelian kvens }
+		}
+		# Bastarnae
+		BAST = {   
+			own_control_core = {
+				suceava
+			}
+
+			include = "expl_scandinavia"
+			include = "catholic_monarchy"
+
+			country_rank = rank_kingdom
+
+			starting_technology_level = 3
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = random
+				
+				laws = {
+					marriage_law = monogamous_marriage
+					heir_religion_law = heir_same_religion
+				}
+
+
+				centralization_vs_decentralization = 25
+				traditionalist_vs_innovative = 30
+				spiritualist_vs_humanist = -50
+				aristocracy_vs_plutocracy = -30
+				serfdom_vs_free_subjects = 50
+				mercantilism_vs_free_trade = -10
+				belligerent_vs_conciliatory = 10
+				quality_vs_quantity = -5
+				offensive_vs_defensive = -20
+				land_vs_naval = -10
+				capital_economy_vs_traditional_economy = 90
+				individualism_vs_communalism = -20
+				outward_vs_inward = -30
+
+				privilege = {
+					#nobles
+					auxilium_et_consilium
+					nobles_land_rights
+					noble_marriage_rights
+					noble_fortification_licenses
+
+					#clergy
+					clergy_literacy_rights
+					clergy_enforced_unity
+
+					#burghers
+					market_fairs
+
+					#peasants
+					peasants_free_peasantry
+					peasants_represented_in_parliament
+					land_owning_farmers
+				}
+
+			}
+
+			capital = suceava
+		
+			accepted_cultures = { finnish gutnish }
+			tolerated_cultures = { tavastian karelian kvens }
+		}
+	#---------------------------- Scandinavia --------------------------------
+		# Heruli
+		HERU = {   
+			own_control_core = {
+				roskilde
+			}
+
+			include = "expl_scandinavia"
+			include = "catholic_monarchy"
+
+			country_rank = rank_kingdom
+
+			starting_technology_level = 3
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = random
+				
+				laws = {
+					marriage_law = monogamous_marriage
+					heir_religion_law = heir_same_religion
+				}
+
+
+				centralization_vs_decentralization = 25
+				traditionalist_vs_innovative = 30
+				spiritualist_vs_humanist = -50
+				aristocracy_vs_plutocracy = -30
+				serfdom_vs_free_subjects = 50
+				mercantilism_vs_free_trade = -10
+				belligerent_vs_conciliatory = 10
+				quality_vs_quantity = -5
+				offensive_vs_defensive = -20
+				land_vs_naval = -10
+				capital_economy_vs_traditional_economy = 90
+				individualism_vs_communalism = -20
+				outward_vs_inward = -30
+
+				privilege = {
+					#nobles
+					auxilium_et_consilium
+					nobles_land_rights
+					noble_marriage_rights
+					noble_fortification_licenses
+
+					#clergy
+					clergy_literacy_rights
+					clergy_enforced_unity
+
+					#burghers
+					market_fairs
+
+					#peasants
+					peasants_free_peasantry
+					peasants_represented_in_parliament
+					land_owning_farmers
+				}
+
+			}
+
+			capital = roskilde
+		
+			accepted_cultures = { finnish gutnish }
+			tolerated_cultures = { tavastian karelian kvens }
+		}
+		# Jutes
+		JUTE = {   
+			own_control_core = {
+				slesvig
+			}
+
+			include = "expl_scandinavia"
+			include = "catholic_monarchy"
+
+			country_rank = rank_kingdom
+
+			starting_technology_level = 3
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = random
+				
+				laws = {
+					marriage_law = monogamous_marriage
+					heir_religion_law = heir_same_religion
+				}
+
+
+				centralization_vs_decentralization = 25
+				traditionalist_vs_innovative = 30
+				spiritualist_vs_humanist = -50
+				aristocracy_vs_plutocracy = -30
+				serfdom_vs_free_subjects = 50
+				mercantilism_vs_free_trade = -10
+				belligerent_vs_conciliatory = 10
+				quality_vs_quantity = -5
+				offensive_vs_defensive = -20
+				land_vs_naval = -10
+				capital_economy_vs_traditional_economy = 90
+				individualism_vs_communalism = -20
+				outward_vs_inward = -30
+
+				privilege = {
+					#nobles
+					auxilium_et_consilium
+					nobles_land_rights
+					noble_marriage_rights
+					noble_fortification_licenses
+
+					#clergy
+					clergy_literacy_rights
+					clergy_enforced_unity
+
+					#burghers
+					market_fairs
+
+					#peasants
+					peasants_free_peasantry
+					peasants_represented_in_parliament
+					land_owning_farmers
+				}
+
+			}
+
+			capital = slesvig
+		
+			accepted_cultures = { finnish gutnish }
+			tolerated_cultures = { tavastian karelian kvens }
+		}
+	#---------------------------- Iberia --------------------------------
+		# Ebesus
+		EBSS = {    
+			own_control_core = {
+				ibiza
+			}
+
+			include = "expl_scandinavia"
+			include = "catholic_monarchy"
+
+			country_rank = rank_kingdom
+
+			starting_technology_level = 3
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = random
+				
+				laws = {
+					marriage_law = monogamous_marriage
+					heir_religion_law = heir_same_religion
+				}
+
+
+				centralization_vs_decentralization = 25
+				traditionalist_vs_innovative = 30
+				spiritualist_vs_humanist = -50
+				aristocracy_vs_plutocracy = -30
+				serfdom_vs_free_subjects = 50
+				mercantilism_vs_free_trade = -10
+				belligerent_vs_conciliatory = 10
+				quality_vs_quantity = -5
+				offensive_vs_defensive = -20
+				land_vs_naval = -10
+				capital_economy_vs_traditional_economy = 90
+				individualism_vs_communalism = -20
+				outward_vs_inward = -30
+
+				privilege = {
+					#nobles
+					auxilium_et_consilium
+					nobles_land_rights
+					noble_marriage_rights
+					noble_fortification_licenses
+
+					#clergy
+					clergy_literacy_rights
+					clergy_enforced_unity
+
+					#burghers
+					market_fairs
+
+					#peasants
+					peasants_free_peasantry
+					peasants_represented_in_parliament
+					land_owning_farmers
+				}
+
+			}
+
+			capital = ibiza
+		
+			accepted_cultures = { finnish gutnish }
+			tolerated_cultures = { tavastian karelian kvens }
+		}
+		# Vasconia
+		VASC = {    
+			own_control_core = {
+				pamplona
+			}
+
+			include = "expl_scandinavia"
+			include = "catholic_monarchy"
+
+			country_rank = rank_kingdom
+
+			starting_technology_level = 3
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = random
+				
+				laws = {
+					marriage_law = monogamous_marriage
+					heir_religion_law = heir_same_religion
+				}
+
+
+				centralization_vs_decentralization = 25
+				traditionalist_vs_innovative = 30
+				spiritualist_vs_humanist = -50
+				aristocracy_vs_plutocracy = -30
+				serfdom_vs_free_subjects = 50
+				mercantilism_vs_free_trade = -10
+				belligerent_vs_conciliatory = 10
+				quality_vs_quantity = -5
+				offensive_vs_defensive = -20
+				land_vs_naval = -10
+				capital_economy_vs_traditional_economy = 90
+				individualism_vs_communalism = -20
+				outward_vs_inward = -30
+
+				privilege = {
+					#nobles
+					auxilium_et_consilium
+					nobles_land_rights
+					noble_marriage_rights
+					noble_fortification_licenses
+
+					#clergy
+					clergy_literacy_rights
+					clergy_enforced_unity
+
+					#burghers
+					market_fairs
+
+					#peasants
+					peasants_free_peasantry
+					peasants_represented_in_parliament
+					land_owning_farmers
+				}
+
+			}
+
+			capital = pamplona
+		
+			accepted_cultures = { finnish gutnish }
+			tolerated_cultures = { tavastian karelian kvens }
+		}
+	#---------------------------- Horn of Africa --------------------------------
+		# Kush
+		MERO = {    
+			own_control_core = {
+				atbara
+			}
+
+			include = "expl_scandinavia"
+			include = "catholic_monarchy"
+
+			country_rank = rank_kingdom
+
+			starting_technology_level = 3
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = random
+				
+				laws = {
+					marriage_law = monogamous_marriage
+					heir_religion_law = heir_same_religion
+				}
+
+
+				centralization_vs_decentralization = 25
+				traditionalist_vs_innovative = 30
+				spiritualist_vs_humanist = -50
+				aristocracy_vs_plutocracy = -30
+				serfdom_vs_free_subjects = 50
+				mercantilism_vs_free_trade = -10
+				belligerent_vs_conciliatory = 10
+				quality_vs_quantity = -5
+				offensive_vs_defensive = -20
+				land_vs_naval = -10
+				capital_economy_vs_traditional_economy = 90
+				individualism_vs_communalism = -20
+				outward_vs_inward = -30
+
+				privilege = {
+					#nobles
+					auxilium_et_consilium
+					nobles_land_rights
+					noble_marriage_rights
+					noble_fortification_licenses
+
+					#clergy
+					clergy_literacy_rights
+					clergy_enforced_unity
+
+					#burghers
+					market_fairs
+
+					#peasants
+					peasants_free_peasantry
+					peasants_represented_in_parliament
+					land_owning_farmers
+				}
+
+			}
+
+			capital = atbara
+		
+			accepted_cultures = { finnish gutnish }
+			tolerated_cultures = { tavastian karelian kvens }
+		}
+		# Blemmyes
+		BLEM = {    
+			own_control_core = {
+				ed_debba
+			}
+
+			include = "expl_scandinavia"
+			include = "catholic_monarchy"
+
+			country_rank = rank_kingdom
+
+			starting_technology_level = 3
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = random
+				
+				laws = {
+					marriage_law = monogamous_marriage
+					heir_religion_law = heir_same_religion
+				}
+
+
+				centralization_vs_decentralization = 25
+				traditionalist_vs_innovative = 30
+				spiritualist_vs_humanist = -50
+				aristocracy_vs_plutocracy = -30
+				serfdom_vs_free_subjects = 50
+				mercantilism_vs_free_trade = -10
+				belligerent_vs_conciliatory = 10
+				quality_vs_quantity = -5
+				offensive_vs_defensive = -20
+				land_vs_naval = -10
+				capital_economy_vs_traditional_economy = 90
+				individualism_vs_communalism = -20
+				outward_vs_inward = -30
+
+				privilege = {
+					#nobles
+					auxilium_et_consilium
+					nobles_land_rights
+					noble_marriage_rights
+					noble_fortification_licenses
+
+					#clergy
+					clergy_literacy_rights
+					clergy_enforced_unity
+
+					#burghers
+					market_fairs
+
+					#peasants
+					peasants_free_peasantry
+					peasants_represented_in_parliament
+					land_owning_farmers
+				}
+
+			}
+
+			capital = ed_debba
+		
+			accepted_cultures = { finnish gutnish }
+			tolerated_cultures = { tavastian karelian kvens }
+		}
+		# Adulis
+		ADUL = {    
+			own_control_core = {
+				dongola
+			}
+
+			include = "expl_scandinavia"
+			include = "catholic_monarchy"
+
+			country_rank = rank_kingdom
+
+			starting_technology_level = 3
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = random
+				
+				laws = {
+					marriage_law = monogamous_marriage
+					heir_religion_law = heir_same_religion
+				}
+
+
+				centralization_vs_decentralization = 25
+				traditionalist_vs_innovative = 30
+				spiritualist_vs_humanist = -50
+				aristocracy_vs_plutocracy = -30
+				serfdom_vs_free_subjects = 50
+				mercantilism_vs_free_trade = -10
+				belligerent_vs_conciliatory = 10
+				quality_vs_quantity = -5
+				offensive_vs_defensive = -20
+				land_vs_naval = -10
+				capital_economy_vs_traditional_economy = 90
+				individualism_vs_communalism = -20
+				outward_vs_inward = -30
+
+				privilege = {
+					#nobles
+					auxilium_et_consilium
+					nobles_land_rights
+					noble_marriage_rights
+					noble_fortification_licenses
+
+					#clergy
+					clergy_literacy_rights
+					clergy_enforced_unity
+
+					#burghers
+					market_fairs
+
+					#peasants
+					peasants_free_peasantry
+					peasants_represented_in_parliament
+					land_owning_farmers
+				}
+
+			}
+
+			capital = dongola
+		
+			accepted_cultures = { finnish gutnish }
+			tolerated_cultures = { tavastian karelian kvens }
+		}
+		# Aksum
+		AKSM = {    
+			own_control_core = {
+				harar
+			}
+
+			include = "expl_scandinavia"
+			include = "catholic_monarchy"
+
+			country_rank = rank_kingdom
+
+			starting_technology_level = 3
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = random
+				
+				laws = {
+					marriage_law = monogamous_marriage
+					heir_religion_law = heir_same_religion
+				}
+
+
+				centralization_vs_decentralization = 25
+				traditionalist_vs_innovative = 30
+				spiritualist_vs_humanist = -50
+				aristocracy_vs_plutocracy = -30
+				serfdom_vs_free_subjects = 50
+				mercantilism_vs_free_trade = -10
+				belligerent_vs_conciliatory = 10
+				quality_vs_quantity = -5
+				offensive_vs_defensive = -20
+				land_vs_naval = -10
+				capital_economy_vs_traditional_economy = 90
+				individualism_vs_communalism = -20
+				outward_vs_inward = -30
+
+				privilege = {
+					#nobles
+					auxilium_et_consilium
+					nobles_land_rights
+					noble_marriage_rights
+					noble_fortification_licenses
+
+					#clergy
+					clergy_literacy_rights
+					clergy_enforced_unity
+
+					#burghers
+					market_fairs
+
+					#peasants
+					peasants_free_peasantry
+					peasants_represented_in_parliament
+					land_owning_farmers
+				}
+
+			}
+
+			capital = harar
+		
+			accepted_cultures = { finnish gutnish }
+			tolerated_cultures = { tavastian karelian kvens }
+		}
+		# Awi
+		AWI0 = {    
+			own_control_core = {
+				haylan
+			}
+
+			include = "expl_scandinavia"
+			include = "catholic_monarchy"
+
+			country_rank = rank_kingdom
+
+			starting_technology_level = 3
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = random
+				
+				laws = {
+					marriage_law = monogamous_marriage
+					heir_religion_law = heir_same_religion
+				}
+
+
+				centralization_vs_decentralization = 25
+				traditionalist_vs_innovative = 30
+				spiritualist_vs_humanist = -50
+				aristocracy_vs_plutocracy = -30
+				serfdom_vs_free_subjects = 50
+				mercantilism_vs_free_trade = -10
+				belligerent_vs_conciliatory = 10
+				quality_vs_quantity = -5
+				offensive_vs_defensive = -20
+				land_vs_naval = -10
+				capital_economy_vs_traditional_economy = 90
+				individualism_vs_communalism = -20
+				outward_vs_inward = -30
+
+				privilege = {
+					#nobles
+					auxilium_et_consilium
+					nobles_land_rights
+					noble_marriage_rights
+					noble_fortification_licenses
+
+					#clergy
+					clergy_literacy_rights
+					clergy_enforced_unity
+
+					#burghers
+					market_fairs
+
+					#peasants
+					peasants_free_peasantry
+					peasants_represented_in_parliament
+					land_owning_farmers
+				}
+
+			}
+
+			capital = haylan
+		
+			accepted_cultures = { finnish gutnish }
+			tolerated_cultures = { tavastian karelian kvens }
+		}
+		# Gebal
+		YEHA = {    
+			own_control_core = {
+				zeila
+			}
+
+			include = "expl_scandinavia"
+			include = "catholic_monarchy"
+
+			country_rank = rank_kingdom
+
+			starting_technology_level = 3
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = random
+				
+				laws = {
+					marriage_law = monogamous_marriage
+					heir_religion_law = heir_same_religion
+				}
+
+
+				centralization_vs_decentralization = 25
+				traditionalist_vs_innovative = 30
+				spiritualist_vs_humanist = -50
+				aristocracy_vs_plutocracy = -30
+				serfdom_vs_free_subjects = 50
+				mercantilism_vs_free_trade = -10
+				belligerent_vs_conciliatory = 10
+				quality_vs_quantity = -5
+				offensive_vs_defensive = -20
+				land_vs_naval = -10
+				capital_economy_vs_traditional_economy = 90
+				individualism_vs_communalism = -20
+				outward_vs_inward = -30
+
+				privilege = {
+					#nobles
+					auxilium_et_consilium
+					nobles_land_rights
+					noble_marriage_rights
+					noble_fortification_licenses
+
+					#clergy
+					clergy_literacy_rights
+					clergy_enforced_unity
+
+					#burghers
+					market_fairs
+
+					#peasants
+					peasants_free_peasantry
+					peasants_represented_in_parliament
+					land_owning_farmers
+				}
+
+			}
+
+			capital = zeila
+		
+			accepted_cultures = { finnish gutnish }
+			tolerated_cultures = { tavastian karelian kvens }
+		}
+		# Afar
+		AFAR = {    
+			own_control_core = {
+				alula
+			}
+
+			include = "expl_scandinavia"
+			include = "catholic_monarchy"
+
+			country_rank = rank_kingdom
+
+			starting_technology_level = 3
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = random
+				
+				laws = {
+					marriage_law = monogamous_marriage
+					heir_religion_law = heir_same_religion
+				}
+
+
+				centralization_vs_decentralization = 25
+				traditionalist_vs_innovative = 30
+				spiritualist_vs_humanist = -50
+				aristocracy_vs_plutocracy = -30
+				serfdom_vs_free_subjects = 50
+				mercantilism_vs_free_trade = -10
+				belligerent_vs_conciliatory = 10
+				quality_vs_quantity = -5
+				offensive_vs_defensive = -20
+				land_vs_naval = -10
+				capital_economy_vs_traditional_economy = 90
+				individualism_vs_communalism = -20
+				outward_vs_inward = -30
+
+				privilege = {
+					#nobles
+					auxilium_et_consilium
+					nobles_land_rights
+					noble_marriage_rights
+					noble_fortification_licenses
+
+					#clergy
+					clergy_literacy_rights
+					clergy_enforced_unity
+
+					#burghers
+					market_fairs
+
+					#peasants
+					peasants_free_peasantry
+					peasants_represented_in_parliament
+					land_owning_farmers
+				}
+
+			}
+
+			capital = alula
+		
+			accepted_cultures = { finnish gutnish }
+			tolerated_cultures = { tavastian karelian kvens }
+		}
+		# Avalites
+		AVAL = {     
+			own_control_core = {
+				zeila
+			}
+
+			include = "expl_scandinavia"
+			include = "catholic_monarchy"
+
+			country_rank = rank_kingdom
+
+			starting_technology_level = 3
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = random
+				
+				laws = {
+					marriage_law = monogamous_marriage
+					heir_religion_law = heir_same_religion
+				}
+
+
+				centralization_vs_decentralization = 25
+				traditionalist_vs_innovative = 30
+				spiritualist_vs_humanist = -50
+				aristocracy_vs_plutocracy = -30
+				serfdom_vs_free_subjects = 50
+				mercantilism_vs_free_trade = -10
+				belligerent_vs_conciliatory = 10
+				quality_vs_quantity = -5
+				offensive_vs_defensive = -20
+				land_vs_naval = -10
+				capital_economy_vs_traditional_economy = 90
+				individualism_vs_communalism = -20
+				outward_vs_inward = -30
+
+				privilege = {
+					#nobles
+					auxilium_et_consilium
+					nobles_land_rights
+					noble_marriage_rights
+					noble_fortification_licenses
+
+					#clergy
+					clergy_literacy_rights
+					clergy_enforced_unity
+
+					#burghers
+					market_fairs
+
+					#peasants
+					peasants_free_peasantry
+					peasants_represented_in_parliament
+					land_owning_farmers
+				}
+
+			}
+
+			capital = zeila
+		
+			accepted_cultures = { finnish gutnish }
+			tolerated_cultures = { tavastian karelian kvens }
+		}
+		# Berbera
+		BERB = {     
+			own_control_core = {
+				berbera
+			}
+
+			include = "expl_scandinavia"
+			include = "catholic_monarchy"
+
+			country_rank = rank_kingdom
+
+			starting_technology_level = 3
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = random
+				
+				laws = {
+					marriage_law = monogamous_marriage
+					heir_religion_law = heir_same_religion
+				}
+
+
+				centralization_vs_decentralization = 25
+				traditionalist_vs_innovative = 30
+				spiritualist_vs_humanist = -50
+				aristocracy_vs_plutocracy = -30
+				serfdom_vs_free_subjects = 50
+				mercantilism_vs_free_trade = -10
+				belligerent_vs_conciliatory = 10
+				quality_vs_quantity = -5
+				offensive_vs_defensive = -20
+				land_vs_naval = -10
+				capital_economy_vs_traditional_economy = 90
+				individualism_vs_communalism = -20
+				outward_vs_inward = -30
+
+				privilege = {
+					#nobles
+					auxilium_et_consilium
+					nobles_land_rights
+					noble_marriage_rights
+					noble_fortification_licenses
+
+					#clergy
+					clergy_literacy_rights
+					clergy_enforced_unity
+
+					#burghers
+					market_fairs
+
+					#peasants
+					peasants_free_peasantry
+					peasants_represented_in_parliament
+					land_owning_farmers
+				}
+
+			}
+
+			capital = berbera
+		
+			accepted_cultures = { finnish gutnish }
+			tolerated_cultures = { tavastian karelian kvens }
+		}
+		# Heis
+		HEIS = {    
+			own_control_core = {
+				hobyo
+			}
+
+			include = "expl_scandinavia"
+			include = "catholic_monarchy"
+
+			country_rank = rank_kingdom
+
+			starting_technology_level = 3
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = random
+				
+				laws = {
+					marriage_law = monogamous_marriage
+					heir_religion_law = heir_same_religion
+				}
+
+
+				centralization_vs_decentralization = 25
+				traditionalist_vs_innovative = 30
+				spiritualist_vs_humanist = -50
+				aristocracy_vs_plutocracy = -30
+				serfdom_vs_free_subjects = 50
+				mercantilism_vs_free_trade = -10
+				belligerent_vs_conciliatory = 10
+				quality_vs_quantity = -5
+				offensive_vs_defensive = -20
+				land_vs_naval = -10
+				capital_economy_vs_traditional_economy = 90
+				individualism_vs_communalism = -20
+				outward_vs_inward = -30
+
+				privilege = {
+					#nobles
+					auxilium_et_consilium
+					nobles_land_rights
+					noble_marriage_rights
+					noble_fortification_licenses
+
+					#clergy
+					clergy_literacy_rights
+					clergy_enforced_unity
+
+					#burghers
+					market_fairs
+
+					#peasants
+					peasants_free_peasantry
+					peasants_represented_in_parliament
+					land_owning_farmers
+				}
+
+			}
+
+			capital = hobyo
+		
+			accepted_cultures = { finnish gutnish }
+			tolerated_cultures = { tavastian karelian kvens }
+		}
+		# Bosaso
+		BOSA = {    
+			own_control_core = {
+				bosaso
+			}
+
+			include = "expl_scandinavia"
+			include = "catholic_monarchy"
+
+			country_rank = rank_kingdom
+
+			starting_technology_level = 3
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = random
+				
+				laws = {
+					marriage_law = monogamous_marriage
+					heir_religion_law = heir_same_religion
+				}
+
+
+				centralization_vs_decentralization = 25
+				traditionalist_vs_innovative = 30
+				spiritualist_vs_humanist = -50
+				aristocracy_vs_plutocracy = -30
+				serfdom_vs_free_subjects = 50
+				mercantilism_vs_free_trade = -10
+				belligerent_vs_conciliatory = 10
+				quality_vs_quantity = -5
+				offensive_vs_defensive = -20
+				land_vs_naval = -10
+				capital_economy_vs_traditional_economy = 90
+				individualism_vs_communalism = -20
+				outward_vs_inward = -30
+
+				privilege = {
+					#nobles
+					auxilium_et_consilium
+					nobles_land_rights
+					noble_marriage_rights
+					noble_fortification_licenses
+
+					#clergy
+					clergy_literacy_rights
+					clergy_enforced_unity
+
+					#burghers
+					market_fairs
+
+					#peasants
+					peasants_free_peasantry
+					peasants_represented_in_parliament
+					land_owning_farmers
+				}
+
+			}
+
+			capital = bosaso
+		
+			accepted_cultures = { finnish gutnish }
+			tolerated_cultures = { tavastian karelian kvens }
+		}
+		# Hafun
+		HAFU = {    
+			own_control_core = {
+				ras_hafun
+			}
+
+			include = "expl_scandinavia"
+			include = "catholic_monarchy"
+
+			country_rank = rank_kingdom
+
+			starting_technology_level = 3
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = random
+				
+				laws = {
+					marriage_law = monogamous_marriage
+					heir_religion_law = heir_same_religion
+				}
+
+
+				centralization_vs_decentralization = 25
+				traditionalist_vs_innovative = 30
+				spiritualist_vs_humanist = -50
+				aristocracy_vs_plutocracy = -30
+				serfdom_vs_free_subjects = 50
+				mercantilism_vs_free_trade = -10
+				belligerent_vs_conciliatory = 10
+				quality_vs_quantity = -5
+				offensive_vs_defensive = -20
+				land_vs_naval = -10
+				capital_economy_vs_traditional_economy = 90
+				individualism_vs_communalism = -20
+				outward_vs_inward = -30
+
+				privilege = {
+					#nobles
+					auxilium_et_consilium
+					nobles_land_rights
+					noble_marriage_rights
+					noble_fortification_licenses
+
+					#clergy
+					clergy_literacy_rights
+					clergy_enforced_unity
+
+					#burghers
+					market_fairs
+
+					#peasants
+					peasants_free_peasantry
+					peasants_represented_in_parliament
+					land_owning_farmers
+				}
+
+			}
+
+			capital = ras_hafun
+		
+			accepted_cultures = { finnish gutnish }
+			tolerated_cultures = { tavastian karelian kvens }
+		}
+	
+	#-------------------------- Central America ----------------------------
+
+	}
+}
