@@ -1229,7 +1229,7 @@ impassable_mountains = {
 	kola_taiga lapland_taiga1 lapland_taiga2 lapland_taiga3 lapland_taiga4 karelia_taiga1 karelia_taiga2
 	crimean_mountains pantelleria aburakeiru malliouhana ariogana
 	abdalkuri_island tanahjampea tukangbesi_islands karatung_island sangihe_islands samana_cay utiaquia mapun
-	santa_maria barren_island nosy_ampela channel_islands porto_santo kaiman arorae beru_atoll aranuka_atoll
+	santa_maria barren_island nosy_ampela channel_islands porto_santo arorae beru_atoll aranuka_atoll
 	juan_fernandez_islands nga_pu_toru namorik_atoll guadalupe_island
 	chichijima hahajima iwo_jima agrihan pagan_island ranongga nanumanga
 	rotuma niutao nui_atoll nanumea_atoll ailinginae_atoll wotho_atoll ujelang_atoll
@@ -1604,10 +1604,10 @@ impassable_mountains = {
 	futuna_vanuatu maiao tikei ducie_atoll belau_atoll frederick_reef
 	duff_islands belep mehetia pitcairn bougainville_jungle choiseul_jungle henderson elgin_atoll
 	bougainville_jungle isatabu_jungle zabana_jungle makira_jungle ngulu_atoll
-	cook_knolls bayonnaise_banks chagos_archipelago kosciusko_bank niuoku_atoll bellona_reef
+	cook_knolls bayonnaise_banks kosciusko_bank niuoku_atoll bellona_reef
 	west_faru_atoll caroline new_caledonia_barrier_reef_1 new_caledonia_barrier_reef_2 entrecasteaux_atoll beautemps_beaupre_atoll tikopia_atoll anuta_atoll reef_atoll indispensable_reefs manning_atoll nukumanu_atoll luangiua_atoll tauu_atoll anen_kio_atoll bikar_atoll taongi_atoll pohnpei_atoll oroluk_atoll minto_atoll noos anatahan hall_atoll chuuk_lagoon guahan_atoll piagailoe_atoll caroline_atoll namonuito_atoll
 	lord_howe_island norfolk kwenyii manua manihiki te_ulu_o_te_watu atafu_atoll nikumaroro_atoll 
-	christmas_island saint_paul_island seychelles gough_island tristan_da_cunha_island ascensao ebon_atoll orona_atoll manra_atoll kanton_atoll ono_i_llau_atoll faraulep_atoll ngatik_atoll rota lakeba moala angaur eua niuatoputapu_atoll niuafo_ou futuna
+	saint_paul_island gough_island tristan_da_cunha_island ascensao ebon_atoll orona_atoll manra_atoll kanton_atoll ono_i_llau_atoll faraulep_atoll ngatik_atoll rota lakeba moala angaur eua niuatoputapu_atoll niuafo_ou futuna
 	
 	changshan_islands_wastelands geiyo_islands_wastelands banta_island_wasteland kamaran_islands_wasteland
 	amrum_island_wasteland lastovo_island_wasteland

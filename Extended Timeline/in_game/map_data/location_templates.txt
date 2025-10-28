@@ -15017,7 +15017,7 @@ thiladhunmathi_atoll = { topography = atoll vegetation = forest climate = tropic
 male_atoll = { topography = atoll vegetation = forest climate = tropical religion = hindu culture = dhivehi_culture raw_material = lumber natural_harbor_suitability = 0.00}
 nilandhe_atoll = { topography = atoll vegetation = forest climate = tropical religion = hindu culture = dhivehi_culture raw_material = fish natural_harbor_suitability = 0.00}
 addu_atoll = { topography = atoll vegetation = forest climate = tropical religion = hindu culture = dhivehi_culture raw_material = fish natural_harbor_suitability = 0.00}
-chagos_archipelago = { topography = atoll vegetation = desert climate = tropical}
+chagos_archipelago = { topography = atoll vegetation = desert climate = tropical religion = hindu culture = dhivehi_culture raw_material = fish natural_harbor_suitability = 0.00}
 indian_coast23 = { topography = coastal_ocean climate = tropical}
 indian_coast24 = { topography = coastal_ocean climate = tropical}
 indian_coast25 = { topography = coastal_ocean climate = tropical}
@@ -15935,7 +15935,7 @@ pakuan = { topography = flatland vegetation = jungle climate = tropical religion
 pangguyangan = { topography = flatland vegetation = jungle climate = tropical religion = hindu culture = sundanese_culture raw_material = fish natural_harbor_suitability = 0.00}
 pulasari = { topography = flatland vegetation = jungle climate = tropical religion = hindu culture = sundanese_culture raw_material = legumes}
 sunda_kelapa = { topography = wetlands vegetation = farmland climate = tropical religion = hindu culture = sundanese_culture raw_material = pepper natural_harbor_suitability = 0.40}
-christmas_island = { topography = flatland vegetation = jungle climate = tropical}
+christmas_island = { topography = flatland vegetation = jungle climate = tropical religion = hindu culture = sundanese_culture raw_material = pepper natural_harbor_suitability = 0.00}
 cirebon = { topography = flatland vegetation = woods climate = tropical religion = hindu culture = sundanese_culture raw_material = clay natural_harbor_suitability = 0.00}
 cibuaya = { topography = wetlands vegetation = forest climate = tropical religion = hindu culture = sundanese_culture raw_material = sugar natural_harbor_suitability = 0.00}
 cimanuk = { topography = wetlands vegetation = farmland climate = tropical religion = hindu culture = sundanese_culture raw_material = fiber_crops natural_harbor_suitability = 0.00}
@@ -17919,7 +17919,7 @@ mauritius = { topography = flatland vegetation = jungle climate = tropical relig
 rodrigues = { topography = flatland vegetation = jungle climate = tropical religion = fomba_gasy_religion culture = betsimisaraka_culture raw_material = fruit natural_harbor_suitability = 0.00}
 reunion = { topography = mountains vegetation = jungle climate = oceanic religion = fomba_gasy_religion culture = betsimisaraka_culture raw_material = fish natural_harbor_suitability = 0.00}
 al_khadra = { topography = atoll vegetation = jungle climate = tropical religion = fomba_gasy_religion culture = zafiraminia_culture raw_material = fish natural_harbor_suitability = 0.00}
-seychelles = { topography = flatland vegetation = jungle climate = tropical}
+seychelles = { topography = flatland vegetation = jungle climate = tropical religion = fomba_gasy_religion culture = tandroy_culture raw_material = fish natural_harbor_suitability = 0.00}
 andranosoa = { topography = flatland vegetation = grasslands climate = arid religion = fomba_gasy_religion culture = tandroy_culture raw_material = fruit}
 ambovontany = { topography = flatland vegetation = grasslands climate = tropical religion = sunni culture = tandroy_culture raw_material = livestock natural_harbor_suitability = 0.00}
 fort_dauphin = { topography = flatland vegetation = jungle climate = tropical religion = fomba_gasy_religion culture = antanosy_culture raw_material = beeswax natural_harbor_suitability = 0.00}
@@ -20665,7 +20665,7 @@ aguacadiba = { topography = hills vegetation = jungle climate = tropical religio
 guaygata = { topography = plateau vegetation = jungle climate = tropical religion = zemi_religion culture = ciboney raw_material = chili natural_harbor_suitability = 0.00}
 anaya = { topography = hills vegetation = jungle climate = tropical religion = zemi_religion culture = ciboney raw_material = fish natural_harbor_suitability = 0.00}
 oristan = { topography = hills vegetation = jungle climate = tropical religion = zemi_religion culture = ciboney raw_material = dyes natural_harbor_suitability = 0.00}
-kaiman = { topography = flatland vegetation = jungle climate = tropical}
+kaiman = { topography = flatland vegetation = jungle climate = tropical religion = zemi_religion culture = lucayo raw_material = cotton natural_harbor_suitability = 0.00}
 abacoa = { topography = wetlands vegetation = forest climate = tropical religion = zemi_religion culture = lucayo raw_material = cotton natural_harbor_suitability = 0.60}
 exuma = { topography = wetlands vegetation = forest climate = tropical religion = zemi_religion culture = lucayo raw_material = wild_game natural_harbor_suitability = 0.00}
 guanima = { topography = wetlands vegetation = forest climate = tropical religion = zemi_religion culture = lucayo raw_material = fish natural_harbor_suitability = 0.00}
